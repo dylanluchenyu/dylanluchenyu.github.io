@@ -1,5 +1,389 @@
 {
   "basics": {
+    "name": "Chenyu Lu",
+    "email": "cluba@connect.ust.hk",
+    "phone": "+852 62790463",
+    "website": "https://dylanluchenyu.github.io",
+    "summary": "HKUST undergraduate pursuing a Bachelor of Science in Computer Science & Mathematics with a 3.863 GPA. Focused on blockchain cryptography, GUI agent algorithm research, and discrete mathematics. UROP research assistant, undergraduate teaching assistant, and award-winning mathematics competitor with open-source project contributions.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Hong Kong",
+      "countryCode": "HK",
+      "region": "Hong Kong SAR"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Chenyu Lu HKUST",
+        "url": ""
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "dylanluchenyu",
+        "url": "https://github.com/dylanluchenyu"
+      },
+      {
+        "network": "arXiv",
+        "username": "",
+        "url": "https://arxiv.org/abs/2509.15221v2"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "area": "Bachelor of Science in Computer Science & Mathematics",
+      "studyType": "Undergraduate",
+      "startDate": "2024-09",
+      "endDate": "2028-06",
+      "gpa": "3.863",
+      "courses": [
+        "Calculus",
+        "Discrete Mathematics",
+        "Cryptography",
+        "Programming Fundamentals",
+        "Linear Algebra",
+        "Game Theory",
+        "Topology"
+      ],
+      "notes": [
+        "2026 – 2027 Student Member, The Hong Kong Institution of Engineers (HKIE)",
+        "July 2026 Exchange Student, HKUST Summer Study Abroad, Tallinn University"
+      ]
+    }
+  ],
+  "skills": [
+    "Blockchain Protocol Analysis (UTXO/Account Models)",
+    "Cryptography Theory & Application",
+    "Large-Scale Data Collection & Preprocessing",
+    "Discrete Mathematics",
+    "Python/Programming Fundamentals",
+    "Open-Source Project Contribution",
+    "Academic Research Documentation",
+    "Undergraduate Academic Guidance"
+  ],
+  "languages": [
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient (Reading, Writing, Listening, Literate)"
+    }
+  ],
+  "interests": [
+    "Blockchain & Cryptography Research",
+    "AI Agent Algorithm Development",
+    "Mathematical Olympiad & Combinatorics",
+    "Open-Source Software Development",
+    "Computational Mathematics"
+  ],
+  "references": [],
+  "publications": [
+    {
+      "name": "Preprint: [Title Corresponding to arXiv:2509.15221v2]",
+      "publisher": "arXiv",
+      "releaseDate": "2025-09",
+      "website": "https://arxiv.org/abs/2509.15221v2",
+      "summary": "Contributed to large-scale data collection and preprocessing for GUI agent algorithm research; co-authored this academic preprint as part of the HKUST GUI Agent Project supervised by Prof. Qifeng Chen and Dr. Zhaoyang LIU."
+    }
+  ],
+  "presentations": [],
+  "teaching": [
+    {
+      "course": "COMP2711 Discrete Mathematics",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2025-09",
+      "endDate": "2025-12",
+      "role": "Undergraduate Teaching Assistant (UGTA)",
+      "description": "Provided academic guidance for undergraduate students on core discrete mathematics concepts; assisted the course instructor with assignment arrangement and grading support."
+    },
+    {
+      "course": "COMP4900 Graduation Requirements",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2025-09",
+      "endDate": "2025-12",
+      "role": "Undergraduate Teaching Assistant (UGTA)",
+      "description": "Guided undergraduate students on HKUST graduation requirement compliance; assisted instructional assistants (IA) with seminar registration checks and academic administrative support."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "OpenGVLab/ScaleCUA",
+      "category": "Open-Source Research Project",
+      "date": "2025-06",
+      "url": "https://github.com/OpenGVLab/ScaleCUA",
+      "description": "Contributed to the ScaleCUA open-source project as part of the HKUST GUI Agent Project; supported large-scale data preprocessing and algorithm research for GUI agent development."
+    },
+    {
+      "name": "Zeto Project (Blockchain & Cryptography)",
+      "category": "UROP Research Project",
+      "date": "2025-09",
+      "url": "",
+      "description": "Conducted comparative analysis of UTXO and Account models for blockchain protocol research; applied fundamental cryptography theories to Zeto protocol validation and research documentation."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Champion, Junior Division",
+      "awarder": "10th HKUST Undergraduate Mathematics Competition, HKUST",
+      "date": "2025-04"
+    },
+    {
+      "title": "Dean’s List (Full-Time)",
+      "awarder": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2024-2025",
+      "summary": "Fall & Spring Semesters 2024–2025; Fall Semester 2025–2026"
+    },
+    {
+      "title": "Talent Development Scholarship",
+      "awarder": "HKSAR Government Scholarship Fund, Hong Kong SAR",
+      "date": "2024-2025"
+    },
+    {
+      "title": "First Prize",
+      "awarder": "National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society",
+      "date": "2022-09"
+    },
+    {
+      "title": "Merit Award",
+      "awarder": "2nd Pi Day Challenge, Qiuzhen College, Tsinghua University",
+      "date": ""
+    },
+    {
+      "title": "Top 99% National Ranking",
+      "awarder": "Mathematics (Yau Shing-tung Math Test), THUSSAT TACA Exam, China",
+      "date": "2023-08",
+      "summary": "Total Score: 178/450"
+    }
+  ],
+  "research": [
+    {
+      "title": "UROP Research Assistant, Zeto Project",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "supervisors": [
+        "Prof. Dimitris PAPADOPOULOS",
+        "Dr. Jiajun XIN"
+      ],
+      "description": "Conducted comparative analysis of UTXO and Account models for blockchain protocol research; studied fundamental cryptography theories and applied them to Zeto protocol validation. Assisted with research documentation, large-scale data sorting, and daily project coordination for the research team."
+    },
+    {
+      "title": "UROP Research Assistant, GUI Agent Project",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "supervisors": [
+        "Prof. Qifeng Chen",
+        "Dr. Zhaoyang LIU"
+      ],
+      "description": "Performed large-scale data collection and preprocessing for GUI agent algorithm research; co-authored an academic preprint (arXiv:2509.15221v2). Contributed to the OpenGVLab/ScaleCUA open-source research project and assisted with algorithm validation and research report writing."
+    }
+  ]
+}
+{
+  "basics": {
+    "name": "Chenyu Lu",
+    "email": "cluba@connect.ust.hk",
+    "phone": "+852 62790463",
+    "website": "https://dylanluchenyu.github.io",
+    "summary": "HKUST undergraduate pursuing a Bachelor of Science in Computer Science & Mathematics with a 3.863 GPA. Focused on blockchain cryptography, GUI agent algorithm research, and discrete mathematics. UROP research assistant, undergraduate teaching assistant, and award-winning mathematics competitor with open-source project contributions.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Hong Kong",
+      "countryCode": "HK",
+      "region": "Hong Kong SAR"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Chenyu Lu HKUST",
+        "url": ""
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "dylanluchenyu",
+        "url": "https://github.com/dylanluchenyu"
+      },
+      {
+        "network": "arXiv",
+        "username": "",
+        "url": "https://arxiv.org/abs/2509.15221v2"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "area": "Bachelor of Science in Computer Science & Mathematics",
+      "studyType": "Undergraduate",
+      "startDate": "2024-09",
+      "endDate": "2028-06",
+      "gpa": "3.863",
+      "courses": [
+        "Calculus",
+        "Discrete Mathematics",
+        "Cryptography",
+        "Programming Fundamentals",
+        "Linear Algebra",
+        "Game Theory",
+        "Topology"
+      ],
+      "notes": [
+        "2026 – 2027 Student Member, The Hong Kong Institution of Engineers (HKIE)",
+        "July 2026 Exchange Student, HKUST Summer Study Abroad, Tallinn University"
+      ]
+    }
+  ],
+  "skills": [
+    "Blockchain Protocol Analysis (UTXO/Account Models)",
+    "Cryptography Theory & Application",
+    "Large-Scale Data Collection & Preprocessing",
+    "Discrete Mathematics",
+    "Python/Programming Fundamentals",
+    "Open-Source Project Contribution",
+    "Academic Research Documentation",
+    "Undergraduate Academic Guidance"
+  ],
+  "languages": [
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient (Reading, Writing, Listening, Literate)"
+    }
+  ],
+  "interests": [
+    "Blockchain & Cryptography Research",
+    "AI Agent Algorithm Development",
+    "Mathematical Olympiad & Combinatorics",
+    "Open-Source Software Development",
+    "Computational Mathematics"
+  ],
+  "references": [],
+  "publications": [
+    {
+      "name": "Preprint: [Title Corresponding to arXiv:2509.15221v2]",
+      "publisher": "arXiv",
+      "releaseDate": "2025-09",
+      "website": "https://arxiv.org/abs/2509.15221v2",
+      "summary": "Contributed to large-scale data collection and preprocessing for GUI agent algorithm research; co-authored this academic preprint as part of the HKUST GUI Agent Project supervised by Prof. Qifeng Chen and Dr. Zhaoyang LIU."
+    }
+  ],
+  "presentations": [],
+  "teaching": [
+    {
+      "course": "COMP2711 Discrete Mathematics",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2025-09",
+      "endDate": "2025-12",
+      "role": "Undergraduate Teaching Assistant (UGTA)",
+      "description": "Provided academic guidance for undergraduate students on core discrete mathematics concepts; assisted the course instructor with assignment arrangement and grading support."
+    },
+    {
+      "course": "COMP4900 Graduation Requirements",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2025-09",
+      "endDate": "2025-12",
+      "role": "Undergraduate Teaching Assistant (UGTA)",
+      "description": "Guided undergraduate students on HKUST graduation requirement compliance; assisted instructional assistants (IA) with seminar registration checks and academic administrative support."
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "OpenGVLab/ScaleCUA",
+      "category": "Open-Source Research Project",
+      "date": "2025-06",
+      "url": "https://github.com/OpenGVLab/ScaleCUA",
+      "description": "Contributed to the ScaleCUA open-source project as part of the HKUST GUI Agent Project; supported large-scale data preprocessing and algorithm research for GUI agent development."
+    },
+    {
+      "name": "Zeto Project (Blockchain & Cryptography)",
+      "category": "UROP Research Project",
+      "date": "2025-09",
+      "url": "",
+      "description": "Conducted comparative analysis of UTXO and Account models for blockchain protocol research; applied fundamental cryptography theories to Zeto protocol validation and research documentation."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Champion, Junior Division",
+      "awarder": "10th HKUST Undergraduate Mathematics Competition, HKUST",
+      "date": "2025-04"
+    },
+    {
+      "title": "Dean’s List (Full-Time)",
+      "awarder": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2024-2025",
+      "summary": "Fall & Spring Semesters 2024–2025; Fall Semester 2025–2026"
+    },
+    {
+      "title": "Talent Development Scholarship",
+      "awarder": "HKSAR Government Scholarship Fund, Hong Kong SAR",
+      "date": "2024-2025"
+    },
+    {
+      "title": "First Prize",
+      "awarder": "National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society",
+      "date": "2022-09"
+    },
+    {
+      "title": "Merit Award",
+      "awarder": "2nd Pi Day Challenge, Qiuzhen College, Tsinghua University",
+      "date": ""
+    },
+    {
+      "title": "Top 99% National Ranking",
+      "awarder": "Mathematics (Yau Shing-tung Math Test), THUSSAT TACA Exam, China",
+      "date": "2023-08",
+      "summary": "Total Score: 178/450"
+    }
+  ],
+  "research": [
+    {
+      "title": "UROP Research Assistant, Zeto Project",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "supervisors": [
+        "Prof. Dimitris PAPADOPOULOS",
+        "Dr. Jiajun XIN"
+      ],
+      "description": "Conducted comparative analysis of UTXO and Account models for blockchain protocol research; studied fundamental cryptography theories and applied them to Zeto protocol validation. Assisted with research documentation, large-scale data sorting, and daily project coordination for the research team."
+    },
+    {
+      "title": "UROP Research Assistant, GUI Agent Project",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "supervisors": [
+        "Prof. Qifeng Chen",
+        "Dr. Zhaoyang LIU"
+      ],
+      "description": "Performed large-scale data collection and preprocessing for GUI agent algorithm research; co-authored an academic preprint (arXiv:2509.15221v2). Contributed to the OpenGVLab/ScaleCUA open-source research project and assisted with algorithm validation and research report writing."
+    }
+  ]
+}
+{
+  "basics": {
     "name": "Your Sidebar Name",
     "email": "none@example.org",
     "phone": "",
@@ -43,7 +427,7 @@
     },
     {
       "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "area": "M.S. in Jekylil",
       "studyType": "",
       "startDate": "",
       "endDate": "2014",
