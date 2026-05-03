@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-=I'm a Bachelor of Science student in **Computer Science & Mathematics** at the Hong Kong University of Science and Technology (HKUST), graduating in June 2028. My academic interests span cryptography, blockchain protocols, AI systems, and discrete mathematics.
-=
-=Research Experience
+I'm a Bachelor of Science student in **Computer Science & Mathematics** at the Hong Kong University of Science and Technology (HKUST), graduating in June 2028. My academic interests span cryptography, blockchain protocols, AI systems, and discrete mathematics.
+
+Research Experience
 ======
 
 **Blockchain Protocol Research** (Sep 2025 - Dec 2025)  

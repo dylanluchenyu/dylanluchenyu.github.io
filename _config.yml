@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "LU Chenyu / Site Title"
+title                    : "Chenyu Lu / Site Title"
 title_separator          : "-"
-name                     : &name "LU Chenyu"
-description              : &description "LU Chenyu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Chenyu Lu"
+description              : &description "Chenyu Lu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://dylanluchenyu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ repository               : "dylanluchenyu/dylanluchenyu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "LU Chenyu"
+  name             : "Chenyu Lu"
   pronouns         : # example: "she/her"  
   bio              : "Computer Science & Mathematics student at HKUST | Research in cryptography, blockchain, and AI systems"
   location         : "Hong Kong"
