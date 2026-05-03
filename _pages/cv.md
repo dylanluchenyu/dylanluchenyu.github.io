@@ -11,35 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science & Mathematics, Hong Kong University of Science and Technology (HKUST), 2028 (expected)
+  * GPA: 3.863
+  * Relevant Core Courses: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Sep 2025 - Dec 2025: UROP Research Assistant (Zeto Project)
+  * Hong Kong University of Science and Technology
+  * Duties included: Blockchain protocol analysis, cryptography research, documentation
+  * Supervisors: Prof. Dimitris PAPADOPOULOS, Dr. Jiajun XIN
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jun 2025 - Aug 2025: UROP Research Assistant (GUI Agent Project)
+  * Hong Kong University of Science and Technology
+  * Duties included: Large-scale data collection, preprocessing, open-source contribution (OpenGVLab/ScaleCUA)
+  * Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang LIU
+  * Co-authored preprint: arXiv:2509.15221v2
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2025 - Dec 2025: Undergraduate Teaching Assistant (UGTA)
+  * Hong Kong University of Science and Technology
+  * Courses: COMP2711 (Discrete Mathematics), COMP4900 (Graduation Requirements)
+  * Duties included: Academic guidance, assignment and seminar coordination
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C/C++, JavaScript
+* Technical Areas:
+  * Cryptography and Blockchain Protocols
+  * Machine Learning and Computer Vision
+  * Discrete Mathematics
+* Languages: Mandarin Chinese (Native), English (Proficient)
 
 Publications
 ======
