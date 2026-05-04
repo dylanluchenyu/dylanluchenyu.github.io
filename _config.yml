@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Chenyu Lu / Site Title"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Chenyu Lu"
 title_separator          : "-"
 name                     : &name "Chenyu Lu"
-description              : &description "Chenyu Lu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Computer Science & Mathematics student at HKUST working on cryptography, blockchain protocols, and AI systems."
 url                      : https://dylanluchenyu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Chenyu Lu"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science & Mathematics student at HKUST | Research in cryptography, blockchain, and AI systems"
+  bio              : "HKUST Computer Science & Mathematics student working on cryptography, blockchain protocols, and AI systems."
   location         : "Hong Kong"
   employer         : "Hong Kong University of Science and Technology (HKUST)"
   uri              :  https://hkust.edu.hk/
@@ -84,18 +84,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Preprints and Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -155,7 +151,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 

@@ -9,38 +9,60 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="page-intro">
+  <p>Download the latest PDF version here: <a href="{{ base_path }}/files/CV.pdf">CV.pdf</a>.</p>
+</div>
+
 Education
 ======
-* B.S. in Computer Science & Mathematics, Hong Kong University of Science and Technology (HKUST), 2028 (expected)
+* Bachelor of Science in Computer Science & Mathematics, Hong Kong University of Science and Technology, Sep 2024 - Jun 2028
   * GPA: 3.863
-  * Relevant Core Courses: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology
+  * Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology
 
-Work experience
+* Student Member, The Hong Kong Institution of Engineers, 2026 - 2027
+
+* Exchange Student, HKUST Summer Study Abroad, Tallinn University, Jul 2026
+
+Research Experience
 ======
-* Sep 2025 - Dec 2025: UROP Research Assistant (Zeto Project)
-  * Hong Kong University of Science and Technology
-  * Duties included: Blockchain protocol analysis, cryptography research, documentation
-  * Supervisors: Prof. Dimitris PAPADOPOULOS, Dr. Jiajun XIN
+* UROP Research Assistant, Zeto Project, HKUST, Sep 2025 - Dec 2025
+  * Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
+  * Conducted comparative analysis of UTXO and account-based models for blockchain protocol research
+  * Studied cryptographic foundations and their application to protocol validation
+  * Assisted with research documentation, data sorting, and project coordination
 
-* Jun 2025 - Aug 2025: UROP Research Assistant (GUI Agent Project)
-  * Hong Kong University of Science and Technology
-  * Duties included: Large-scale data collection, preprocessing, open-source contribution (OpenGVLab/ScaleCUA)
-  * Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang LIU
-  * Co-authored preprint: arXiv:2509.15221v2
+* UROP Research Assistant, GUI Agent Project, HKUST, Jun 2025 - Aug 2025
+  * Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang Liu
+  * Performed large-scale data collection and preprocessing for GUI agent research
+  * Co-authored an academic preprint: arXiv:2509.15221v2
+  * Contributed to the open-source project OpenGVLab/ScaleCUA
 
-* Sep 2025 - Dec 2025: Undergraduate Teaching Assistant (UGTA)
-  * Hong Kong University of Science and Technology
-  * Courses: COMP2711 (Discrete Mathematics), COMP4900 (Graduation Requirements)
-  * Duties included: Academic guidance, assignment and seminar coordination
-  
+Teaching Experience
+======
+* Undergraduate Teaching Assistant, COMP2711 Discrete Mathematics, HKUST, Sep 2025 - Dec 2025
+  * Provided academic guidance on core discrete mathematics concepts
+  * Assisted with assignment arrangement and course support
+
+* Undergraduate Teaching Assistant, COMP4900, HKUST, Sep 2025 - Dec 2025
+  * Helped students understand graduation requirements
+  * Assisted with seminar registration checks and course administration
+
+Awards and Honors
+======
+* Champion, 10th HKUST Undergraduate Mathematics Competition (Junior Division), Apr 2025
+* Dean's List (Full-Time), Fall and Spring 2024 - 2025, HKUST
+* Dean's List (Full-Time), Fall 2025 - 2026, HKUST
+* Talent Development Scholarship, HKSAR Government Scholarship Fund, 2024 - 2025
+* First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022
+* Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University
+* Top 99% National Ranking, Yau Shing-tung Math Test, Aug 2023
+  * Total score: 178/450
+
 Skills
 ======
-* Programming Languages: Python, C/C++, JavaScript
-* Technical Areas:
-  * Cryptography and Blockchain Protocols
-  * Machine Learning and Computer Vision
-  * Discrete Mathematics
-* Languages: Mandarin Chinese (Native), English (Proficient)
+* Programming: Python, C/C++, JavaScript
+* Research areas: Cryptography, blockchain protocols, machine learning, computer vision, discrete mathematics
+* Languages: Mandarin Chinese (native), English (proficient)
 
 Publications
 ======
@@ -59,7 +81,8 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Extracurricular
 ======
-* Currently signed in to 43 different slack teams
+* Active participant in mathematics competitions and academic challenges
+* Open-source contributor and research project collaborator

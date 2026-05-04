@@ -1,52 +1,83 @@
 ---
 permalink: /
-title: "Chenyu Lu - Computer Science & Mathematics Student"
+title: "Chenyu Lu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+classes: wide
 ---
 
-I'm a Bachelor of Science student in **Computer Science & Mathematics** at the Hong Kong University of Science and Technology (HKUST), graduating in June 2028. My academic interests span cryptography, blockchain protocols, AI systems, and discrete mathematics.
+<section class="landing-hero">
+  <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
+  <h2>Building strong mathematical foundations for cryptography, blockchain systems, and AI.</h2>
+  <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, graduating in June 2028. My work sits at the intersection of theoretical foundations and practical systems, with research experience in blockchain protocol design and GUI agents.</p>
+  <div class="landing-links">
+    <a class="btn btn--primary" href="/cv/">View CV</a>
+    <a class="btn btn--inverse" href="/research/">Research</a>
+    <a class="btn btn--light-outline" href="/projects/">Projects</a>
+  </div>
+</section>
 
-Research Experience
-======
+<section class="highlight-grid">
+  <article class="highlight-card">
+    <span class="highlight-label">Research focus</span>
+    <h3>Cryptography and protocol analysis</h3>
+    <p>I am especially interested in how rigorous mathematical reasoning can inform blockchain architectures, privacy-preserving systems, and trustworthy computing.</p>
+  </article>
+  <article class="highlight-card">
+    <span class="highlight-label">Current direction</span>
+    <h3>AI systems and agent evaluation</h3>
+    <p>My recent work includes data collection and infrastructure support for GUI agent research, together with contributions to open-source tooling.</p>
+  </article>
+  <article class="highlight-card">
+    <span class="highlight-label">Strengths</span>
+    <h3>Math, systems, and research execution</h3>
+    <p>I enjoy moving between proof-oriented thinking, careful experimentation, and the implementation details needed to make research practical.</p>
+  </article>
+</section>
 
-**Blockchain Protocol Research** (Sep 2025 - Dec 2025)  
-UROP Research Assistant, HKUST Zeto Project  
-Supervisors: Prof. Dimitris PAPADOPOULOS, Dr. Jiajun XIN
-- Conducted comparative analysis of UTXO and Account models for blockchain protocol research
-- Studied fundamental cryptography theories and applied to Zeto protocol validation
-- Assisted with research documentation, data sorting and daily project coordination
+## Snapshot
 
-**AI & Computer Vision Research** (Jun 2025 - Aug 2025)  
-UROP Research Assistant, HKUST GUI Agent Project  
-Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang LIU
-- Performed large-scale data collection and preprocessing for GUI agent algorithm research
-- Co-authored academic preprint: arXiv:2509.15221v2
-- Contributed to open-source project: OpenGVLab/ScaleCUA
+- **Degree:** B.S. in Computer Science & Mathematics, HKUST
+- **Expected graduation:** June 2028
+- **GPA:** 3.863
+- **Interests:** Cryptography, blockchain protocols, AI systems, discrete mathematics
+- **Languages:** Mandarin Chinese (native), English (proficient)
 
-Teaching Experience
-======
+## Experience
 
-**Undergraduate Teaching Assistant (UGTA)** (Sep 2025 - Dec 2025)  
-Courses: COMP2711 (Discrete Mathematics), COMP4900 (Graduation Requirements)
-- Provided academic guidance on discrete mathematics core concepts
-- Assisted with assignment and seminar coordination
+### Research
 
-Academic Achievements
-======
+**UROP Research Assistant, Zeto Project**  
+HKUST · Sep 2025 - Dec 2025  
+Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
 
-- **Champion**, 10th HKUST Undergraduate Mathematics Competition (April 2025)
-- **Dean's List** (Fall & Spring 2024-2025, Fall 2025-2026)
-- **Talent Development Scholarship**, HKSAR Government Scholarship Fund (2024-2025)
-- **Top 99%** National Ranking, Yau Shing-tung Math Test (August 2023, Score: 178/450)
-- **First Prize**, National High School Mathematics Olympiad - Preliminary Round (September 2022)
-- **Merit Award**, 2nd Pi Day Challenge, Tsinghua University (September 2022)
+- Conducted comparative analysis of UTXO and account-based models for blockchain protocol research.
+- Studied core cryptographic foundations and their role in protocol validation.
+- Supported documentation, data organization, and day-to-day coordination for the project.
 
-Languages & Skills
-======
+**UROP Research Assistant, GUI Agent Project**  
+HKUST · Jun 2025 - Aug 2025  
+Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang Liu
 
-- **Languages**: Mandarin Chinese (Native), English (Proficient)
-- **Programming**: Python, C/C++, JavaScript
-- **Areas of Interest**: Cryptography, Blockchain Protocols, Machine Learning, Discrete Mathematics
+- Performed large-scale data collection and preprocessing for GUI agent research.
+- Co-authored an academic preprint on computer-use agents.
+- Contributed to the open-source project `OpenGVLab/ScaleCUA`.
+
+### Teaching
+
+**Undergraduate Teaching Assistant**  
+HKUST · Sep 2025 - Dec 2025
+
+- `COMP2711 Discrete Mathematics`: supported students on core discrete math concepts and assisted with course administration.
+- `COMP4900`: helped students navigate graduation requirements and supported seminar logistics.
+
+## Awards
+
+- **Champion**, 10th HKUST Undergraduate Mathematics Competition, Junior Division, Apr 2025
+- **Dean's List**, Fall and Spring 2024-2025; Fall 2025-2026
+- **Talent Development Scholarship**, HKSAR Government Scholarship Fund, 2024-2025
+- **Top 99% National Ranking**, Mathematics, Yau Shing-tung Math Test, Aug 2023
+- **First Prize**, National High School Mathematics Olympiad (Preliminary), Sep 2022
+- **Merit Award**, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University

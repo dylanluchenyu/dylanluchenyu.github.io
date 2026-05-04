@@ -1,14 +1,18 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
 author_profile: true
+redirect_from:
+  - /portfolio/
 ---
 
 {% include base_path %}
 
+<div class="page-intro">
+  <p>A selection of projects and technical work that reflect my interests in software systems, open-source contribution, and academic infrastructure.</p>
+</div>
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-
