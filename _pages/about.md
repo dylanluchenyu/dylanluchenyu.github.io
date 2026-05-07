@@ -10,11 +10,39 @@ classes: wide
 
 <span class="anchor" id="about"></span>
 
-I am a Bachelor of Science student at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), studying **Computer Science and Mathematics** and expecting to graduate in **June 2028**.
+<section class="landing-hero">
+  <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
+  <h2>Building mathematical foundations for secure systems and capable agents.</h2>
+  <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My work sits between proof-oriented thinking, protocol design, and practical AI systems research.</p>
+  <div class="landing-links">
+    <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
+    <a class="btn btn--inverse" href="#publications">Publications</a>
+    <a class="btn btn--light-outline" href="#projects">Projects</a>
+  </div>
+  <div class="landing-stats" aria-label="Profile summary">
+    <span><strong>GPA</strong> 3.863</span>
+    <span><strong>Focus</strong> Cryptography, AI systems</span>
+    <span><strong>Current</strong> HKUST undergraduate researcher</span>
+  </div>
+</section>
 
-My interests sit at the intersection of **cryptography**, **blockchain protocols**, **AI systems**, and **discrete mathematics**. I enjoy moving between proof-oriented thinking, careful system analysis, and the implementation details needed to make research practical.
-
-I have worked on blockchain protocol research through the Zeto project, GUI-agent data and infrastructure through ScaleCUA-related work, and teaching support for undergraduate mathematics and AI courses.
+<section class="highlight-grid">
+  <article class="highlight-card">
+    <span class="highlight-label">Research focus</span>
+    <h3>Cryptography and protocol analysis</h3>
+    <p>I am interested in how mathematical reasoning informs blockchain architectures, privacy-preserving systems, and trustworthy computing.</p>
+  </article>
+  <article class="highlight-card">
+    <span class="highlight-label">Recent work</span>
+    <h3>Computer-use agents</h3>
+    <p>I contributed data pipeline and cross-platform workflow components to ScaleCUA, accepted to ICLR 2026 as an Oral paper.</p>
+  </article>
+  <article class="highlight-card">
+    <span class="highlight-label">Working style</span>
+    <h3>Math, systems, and execution</h3>
+    <p>I enjoy moving from proof-like structure to careful implementation, especially when research needs reliable tooling.</p>
+  </article>
+</section>
 
 <span class="anchor" id="news"></span>
 
