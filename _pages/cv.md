@@ -34,8 +34,15 @@ Research Experience
 * UROP Research Assistant, GUI Agent Project, HKUST, Jun 2025 - Aug 2025
   * Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang Liu
   * Performed large-scale data collection and preprocessing for GUI agent research
-  * Co-authored an academic preprint: arXiv:2509.15221v2
-  * Contributed to the open-source project OpenGVLab/ScaleCUA
+  * Co-authored ScaleCUA, accepted to ICLR 2026 as an Oral paper
+  * Contributed data pipeline and cross-platform workflow components to OpenGVLab/ScaleCUA
+
+Publications
+======
+* **Co-author paper, ICLR 2026 (Oral)**. [arXiv](https://arxiv.org/abs/2509.15221)<br>
+  "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data"<br>
+  Zhaoyang Liu, Jingjing Xie, ..., **Chenyu Lu**, Yunxiang Mo, ..., Wenhai Wang.<br>
+  Contribution: data pipeline and cross-platform workflow components in the open-source codebase.
 
 Teaching Experience
 ======
@@ -64,12 +71,6 @@ Skills
 * Research areas: Cryptography, blockchain protocols, machine learning, computer vision, discrete mathematics
 * Languages: Mandarin Chinese (native), English (proficient)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Talks
 ======
   <ul>{% for post in site.talks reversed %}

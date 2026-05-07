@@ -20,6 +20,7 @@ I have worked on blockchain protocol research through the Zeto project, GUI-agen
 
 # 🔥 News
 
+- *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.01*: Began maintaining the [HKUST Past Paper Resource](/project/hkust-pastpaper/), a student-facing academic resource project.
 - *2025.09*: Started UROP research on the **Zeto Project**, studying blockchain account models and cryptographic foundations.
 - *2025.09*: Began undergraduate teaching assistant roles for **COMP2711 Discrete Mathematics** and **COMP4900** at HKUST.
@@ -51,9 +52,9 @@ I have worked on blockchain protocol research through the Zeto project, GUI-agen
       <a class="paper-link-github" href="https://github.com/OpenGVLab/ScaleCUA" target="_blank" rel="noopener">Code</a>
     </p>
     <p class="paper-title"><a href="https://arxiv.org/abs/2509.15221" target="_blank" rel="noopener">ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data</a></p>
-    <p class="paper-authors">Zhaoyang Liu et al., including <strong>Chenyu Lu</strong>.</p>
-    <p class="paper-meta"><strong>arXiv, 2025</strong></p>
-    <p class="paper-extra">My contribution focused on research-pipeline support, large-scale data collection, preprocessing, and open-source contribution work for cross-platform computer-use-agent experiments.</p>
+    <p class="paper-authors">Zhaoyang Liu, Jingjing Xie, ..., <strong>Chenyu Lu</strong>, Yunxiang Mo, ..., Wenhai Wang.</p>
+    <p class="paper-meta"><strong>ICLR 2026</strong> <span class="paper-meta-highlight">Oral</span></p>
+    <p class="paper-extra">Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
   </div>
 </div>
 

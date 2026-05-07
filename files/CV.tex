@@ -1,0 +1,125 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\definecolor{hkustnavy}{HTML}{003C71}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0.16em}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{0.48em}%
+  {\normalsize\bfseries\color{hkustnavy}#1}\par
+  \vspace{0.12em}\hrule\vspace{0.22em}%
+}
+
+\newenvironment{cvitems}{%
+  \begin{itemize}
+  \setlength{\itemsep}{0.04em}
+  \setlength{\topsep}{0.08em}
+  \setlength{\leftmargin}{1.25em}
+}{%
+  \end{itemize}
+}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\
+  \emph{#3}\hfill #4
+}
+
+\begin{document}
+\fontsize{9.2pt}{10.5pt}\selectfont
+
+\begin{center}
+  {\Large \textbf{Chenyu Lu}}\\[0.2em]
+  Hong Kong \quad
+  \href{mailto:cluba@connect.ust.hk}{cluba@connect.ust.hk} \quad
+  \href{https://dylanluchenyu.github.io}{dylanluchenyu.github.io} \quad
+  \href{https://github.com/dylanluchenyu}{github.com/dylanluchenyu}
+\end{center}
+
+\cvsection{Education}
+\entry{Hong Kong University of Science and Technology}{Sep 2024 -- Jun 2028}{B.S. in Computer Science \& Mathematics}{Hong Kong}
+\begin{cvitems}
+  \item GPA: 3.863.
+  \item Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology.
+\end{cvitems}
+
+\entry{HKUST Summer Study Abroad, Tallinn University}{Jul 2026}{Exchange Student}{Tallinn, Estonia}
+
+\entry{The Hong Kong Institution of Engineers}{2026 -- 2027}{Student Member}{Hong Kong}
+
+\cvsection{Research Experience}
+\entry{UROP Research Assistant, Zeto Project}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Supervisors: Prof. Dimitris Papadopoulos and Dr. Jiajun Xin.
+  \item Conducted comparative analysis of UTXO and account-based models for blockchain protocol research.
+  \item Studied cryptographic foundations and their application to protocol validation.
+  \item Assisted with research documentation, data sorting, and project coordination.
+\end{cvitems}
+
+\entry{UROP Research Assistant, GUI Agent Project}{Jun 2025 -- Aug 2025}{HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Supervisors: Prof. Qifeng Chen and Dr. Zhaoyang Liu.
+  \item Performed large-scale data collection and preprocessing for GUI-agent research.
+  \item Co-authored ScaleCUA, accepted to ICLR 2026 as an Oral paper.
+  \item Contributed data pipeline and cross-platform workflow components to the open-source codebase.
+\end{cvitems}
+
+\cvsection{Publications}
+\textbf{Co-author paper, ICLR 2026 (Oral).} \href{https://arxiv.org/abs/2509.15221}{arXiv}\\
+\emph{ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data}\\
+Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wang.\\
+Contribution: data pipeline and cross-platform workflow components in the open-source codebase.
+
+\cvsection{Projects}
+\textbf{OpenGVLab / ScaleCUA Contribution}\hfill 2025\\
+\href{https://github.com/OpenGVLab/ScaleCUA}{github.com/OpenGVLab/ScaleCUA}
+\begin{cvitems}
+  \item Contributed open-source data pipeline and cross-platform workflow components for computer-use-agent research.
+\end{cvitems}
+
+\textbf{HKUST Past Paper Resource}\hfill 2026\\
+\href{https://github.com/dylanluchenyu/hkust-pastpaper}{github.com/dylanluchenyu/hkust-pastpaper}
+\begin{cvitems}
+  \item Built and maintained student-facing academic infrastructure for organizing and serving HKUST past-paper resources.
+\end{cvitems}
+
+\newpage
+\cvsection{Teaching Experience}
+\entry{Undergraduate Teaching Assistant, COMP2711 Discrete Mathematics}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Provided academic guidance on core discrete mathematics concepts.
+  \item Assisted with assignment arrangement and course support.
+\end{cvitems}
+
+\entry{Undergraduate Teaching Assistant, COMP4900}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Helped students understand graduation requirements.
+  \item Assisted with seminar registration checks and course administration.
+\end{cvitems}
+
+\cvsection{Awards and Honors}
+\begin{cvitems}
+  \item Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division, Apr 2025.
+  \item Dean's List, Fall and Spring 2024--2025; Fall 2025--2026, HKUST.
+  \item Talent Development Scholarship, HKSAR Government Scholarship Fund, 2024--2025.
+  \item First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022.
+  \item Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.
+  \item Top 99\% National Ranking, Yau Shing-tung Math Test, Aug 2023.
+\end{cvitems}
+
+\cvsection{Skills}
+\begin{cvitems}
+  \item Programming: Python, C/C++, JavaScript.
+  \item Research areas: Cryptography, blockchain protocols, machine learning, computer vision, discrete mathematics.
+  \item Languages: Mandarin Chinese (native), English (proficient).
+\end{cvitems}
+
+\end{document}
