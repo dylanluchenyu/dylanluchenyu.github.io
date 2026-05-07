@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Chenyu Lu"
 title_separator          : "-"
 name                     : &name "Chenyu Lu"
@@ -23,12 +23,12 @@ repository               : "dylanluchenyu/dylanluchenyu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg"
+  avatar           : "profile.png"
   name             : "Chenyu Lu"
   pronouns         : # example: "she/her"  
   bio              : "HKUST Computer Science & Mathematics student working on cryptography, blockchain protocols, and AI systems."
   location         : "Hong Kong"
-  employer         : "HKUST"
+  employer         : "Hong Kong University of Science and Technology (HKUST)"
   uri              :  https://hkust.edu.hk/
   email            : "cluba@connect.ust.hk" 
 

@@ -11,13 +11,20 @@ classes: wide
 <span class="anchor" id="about"></span>
 
 <section class="landing-hero">
-  <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
-  <h2>Building mathematical foundations for secure systems and capable agents.</h2>
-  <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My work sits between proof-oriented thinking, protocol design, and practical AI systems research.</p>
-  <div class="landing-links">
-    <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
-    <a class="btn btn--inverse" href="#publications">Publications</a>
-    <a class="btn btn--light-outline" href="#projects">Projects</a>
+  <div class="landing-copy">
+    <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
+    <h2>Building strong mathematical foundations for secure systems and capable agents.</h2>
+    <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My work sits between proof-oriented thinking, protocol design, and practical AI systems research.</p>
+    <div class="landing-links">
+      <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
+      <a class="btn btn--inverse" href="#publications">Publications</a>
+      <a class="btn btn--light-outline" href="#projects">Projects</a>
+    </div>
+  </div>
+  <div class="landing-note">
+    <span>Recent highlight</span>
+    <strong>ScaleCUA</strong>
+    <p>ICLR 2026 Oral paper, with contributions to data pipeline and cross-platform workflow components.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
     <span><strong>GPA</strong> 3.863</span>
