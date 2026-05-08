@@ -1,88 +1,113 @@
-\documentclass[10pt,letterpaper]{article}
+\documentclass[10pt,a4paper]{article}
 
-\usepackage[margin=0.64in]{geometry}
+\usepackage[margin=0.78in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{xcolor}
-\usepackage[colorlinks=true,urlcolor=hkustnavy,linkcolor=hkustnavy]{hyperref}
+\usepackage{array}
+\usepackage[colorlinks=true,urlcolor=hkustblue,linkcolor=hkustblue]{hyperref}
 
-\definecolor{hkustnavy}{HTML}{003C71}
-\definecolor{warmcoral}{HTML}{C94F3D}
-\definecolor{warmrule}{HTML}{D8C8BD}
-\definecolor{muted}{HTML}{4F5963}
+\definecolor{hkustblue}{HTML}{003C71}
+\definecolor{textgray}{HTML}{2B2F33}
+\definecolor{muted}{HTML}{5A626A}
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.06}
+
+\newlength{\datecol}
+\setlength{\datecol}{1.28in}
+\newlength{\bodycol}
+\setlength{\bodycol}{\dimexpr\textwidth-\datecol-0.22in\relax}
 
 \newcommand{\cvsection}[1]{%
-  \vspace{0.85em}
-  {\large\bfseries\color{hkustnavy}#1}\par
-  \vspace{0.16em}{\color{warmrule}\hrule}\vspace{0.38em}
+  \vspace{0.95em}
+  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+    & {\large\bfseries #1}
+  \end{tabular}\par\vspace{0.32em}
 }
 
-\newcommand{\cvsubsection}[1]{%
-  \vspace{0.35em}{\bfseries\color{warmcoral}#1}\par\vspace{0.12em}
+\newcommand{\cventry}[4]{%
+  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+    #1 &
+    \begin{minipage}[t]{\bodycol}
+    \textbf{#2}#3%
+    \if\relax\detokenize{#4}\relax\else\par\emph{#4}\fi
+    \end{minipage}
+  \end{tabular}\par
 }
 
-\newcommand{\entry}[4]{%
-  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
-    \textbf{#1} & #2\\
-    \emph{#3} & \emph{#4}
-  \end{tabular*}\par
+\newcommand{\cvline}[2]{%
+  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+    #1 & \begin{minipage}[t]{\bodycol}#2\end{minipage}
+  \end{tabular}\par
 }
 
 \newenvironment{cvitems}{%
+  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+  &
+  \begin{minipage}[t]{\bodycol}
   \begin{itemize}
-  \setlength{\itemsep}{0.12em}
-  \setlength{\topsep}{0.18em}
-  \setlength{\leftmargin}{1.25em}
+  \setlength{\itemsep}{0.08em}
+  \setlength{\topsep}{0.12em}
+  \setlength{\parsep}{0pt}
+  \setlength{\leftmargin}{1.15em}
 }{%
   \end{itemize}
+  \end{minipage}
+  \end{tabular}\par
 }
 
-\begin{document}
-\fontsize{9.7pt}{11.3pt}\selectfont
+\newcommand{\entrysep}{\vspace{0.34em}}
 
-\begin{center}
-  {\LARGE \textbf{Chenyu Lu}}\\[0.25em]
-  Hong Kong \quad
-  \href{mailto:cluba@connect.ust.hk}{cluba@connect.ust.hk} \quad
-  \href{https://dylanluchenyu.github.io}{dylanluchenyu.github.io} \quad
-  \href{https://github.com/dylanluchenyu}{github.com/dylanluchenyu}
-\end{center}
+\begin{document}
+\color{textgray}
+\fontsize{9.5pt}{11.2pt}\selectfont
+
+\begin{tabular}{@{}>{\arraybackslash}p{0.52\textwidth}@{\hfill}>{\raggedleft\arraybackslash}p{0.42\textwidth}@{}}
+  {\LARGE\bfseries Chenyu Lu} &
+  Hong Kong\\
+  &
+  \href{mailto:cluba@connect.ust.hk}{cluba@connect.ust.hk}\\
+  &
+  \href{https://dylanluchenyu.github.io}{dylanluchenyu.github.io}\\
+  &
+  GitHub: \href{https://github.com/dylanluchenyu}{dylanluchenyu}
+\end{tabular}
 
 \cvsection{Profile}
-HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I enjoy connecting mathematical structure with practical research infrastructure, especially in computer-use-agent evaluation.
+\cvline{}{HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I enjoy connecting mathematical structure with practical research infrastructure, especially in computer-use-agent evaluation.}
 
 \cvsection{Education}
-\entry{Hong Kong University of Science and Technology}{Sep 2024 -- Jun 2028}{B.S. in Computer Science \& Mathematics}{Hong Kong}
+\cventry{Sep 2024 -- Jun 2028}{Bachelor of Science in Computer Science \& Mathematics}{, Hong Kong University of Science and Technology}{Hong Kong}
 \begin{cvitems}
   \item CGA: 3.863 / 4.3.
   \item Major GPA: 4.014 / 4.3, calculated from COMP and MATH coursework.
   \item Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology.
 \end{cvitems}
-
-\entry{HKUST Summer Study Abroad, Tallinn University}{Jul 2026}{Exchange Student}{Tallinn, Estonia}
-
-\entry{The Hong Kong Institution of Engineers}{2026 -- 2027}{Student Member}{Hong Kong}
+\entrysep
+\cventry{Jul 2026}{Exchange Student}{, HKUST Summer Study Abroad, Tallinn University}{Tallinn, Estonia}
+\entrysep
+\cventry{2026 -- 2027}{Student Member}{, The Hong Kong Institution of Engineers}{Hong Kong}
 
 \cvsection{Publications}
-\textbf{Co-author paper, ICLR 2026 (Oral).} \href{https://arxiv.org/abs/2509.15221}{arXiv}\\
+\cvline{ICLR 2026}{\textbf{Co-author paper, ICLR 2026 (Oral).} \href{https://arxiv.org/abs/2509.15221}{arXiv}\\
 \emph{ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data}\\
 Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wang.\\
-\textcolor{muted}{Contribution: data pipeline and cross-platform workflow components in the open-source codebase.}
+\textcolor{muted}{Contribution: data pipeline and cross-platform workflow components in the open-source codebase.}}
 
 \cvsection{Research Experience}
-\entry{UROP Research Assistant, GUI Agent Project}{Jun 2025 -- Aug 2025}{HKUST}{Hong Kong}
+\cventry{Jun 2025 -- Aug 2025}{UROP Research Assistant}{, GUI Agent Project, HKUST}{Hong Kong}
 \begin{cvitems}
   \item Supervisors: Prof. Qifeng Chen and Dr. Zhaoyang Liu.
   \item Performed large-scale data collection and preprocessing for GUI-agent research.
   \item Co-authored ScaleCUA, accepted to ICLR 2026 as an Oral paper.
   \item Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
 \end{cvitems}
-
-\entry{UROP Research Assistant, Zeto Project}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\entrysep
+\cventry{Sep 2025 -- Dec 2025}{UROP Research Assistant}{, Zeto Project, HKUST}{Hong Kong}
 \begin{cvitems}
   \item Supervisors: Prof. Dimitris Papadopoulos and Dr. Jiajun Xin.
   \item Conducted comparative analysis of UTXO and account-based models for blockchain protocol research.
@@ -90,16 +115,14 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
   \item Assisted with research documentation, data sorting, and project coordination.
 \end{cvitems}
 
-\newpage
-
 \cvsection{Projects}
-\entry{OpenGVLab / ScaleCUA Contribution}{2025}{Open-source computer-use-agent research infrastructure}{}
+\cventry{2025}{OpenGVLab / ScaleCUA Contribution}{, open-source computer-use-agent research infrastructure}{}
 \begin{cvitems}
   \item Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
   \item Project: \href{https://github.com/OpenGVLab/ScaleCUA}{github.com/OpenGVLab/ScaleCUA}.
 \end{cvitems}
-
-\entry{Proof Preview}{2026}{Offline LaTeX proof viewer for studying math with Codex}{}
+\entrysep
+\cventry{2026}{Proof Preview}{, offline LaTeX proof viewer for studying math with Codex}{}
 \begin{cvitems}
   \item Built a local HTML viewer with bundled KaTeX for offline mathematical proof preview.
   \item Added a command-line helper that lets Codex write the latest proof and print a file viewer link.
@@ -107,38 +130,31 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
 \end{cvitems}
 
 \cvsection{Teaching Experience}
-\entry{Undergraduate Teaching Assistant, COMP2711 Discrete Mathematics}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\cventry{Sep 2025 -- Dec 2025}{Undergraduate Teaching Assistant}{, COMP2711 Discrete Mathematics, HKUST}{Hong Kong}
 \begin{cvitems}
   \item Provided academic guidance on core discrete mathematics concepts.
   \item Assisted with assignment arrangement and course support.
 \end{cvitems}
-
-\entry{Undergraduate Teaching Assistant, COMP4900}{Sep 2025 -- Dec 2025}{HKUST}{Hong Kong}
+\entrysep
+\cventry{Sep 2025 -- Dec 2025}{Undergraduate Teaching Assistant}{, COMP4900, HKUST}{Hong Kong}
 \begin{cvitems}
   \item Helped students understand graduation requirements.
   \item Assisted with seminar registration checks and course administration.
 \end{cvitems}
 
 \cvsection{Awards and Honors}
-\begin{cvitems}
-  \item Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division, Apr 2025.
-  \item Dean's List, Fall 2024, HKUST.
-  \item Dean's List, Spring 2025, HKUST.
-  \item Dean's List, Fall 2025, HKUST.
-  \item HKSAR Government Scholarship Fund - Talent Development Scholarship, 2024--2025.
-  \item First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022.
-  \item Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.
-  \item Top 99\% National Ranking, Yau Shing-tung Math Test, Aug 2023.
-\end{cvitems}
+\cvline{Apr 2025}{Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division.}
+\cvline{Fall 2024}{Dean's List, HKUST.}
+\cvline{Spring 2025}{Dean's List, HKUST.}
+\cvline{Fall 2025}{Dean's List, HKUST.}
+\cvline{2024--2025}{HKSAR Government Scholarship Fund - Talent Development Scholarship.}
+\cvline{Sep 2022}{First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society.}
+\cvline{}{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.}
+\cvline{Aug 2023}{Top 99\% National Ranking, Yau Shing-tung Math Test.}
 
 \cvsection{Skills}
-\cvsubsection{Programming}
-Python, C/C++, JavaScript.
-
-\cvsubsection{Research Areas}
-Machine learning, reinforcement learning, large language models.
-
-\cvsubsection{Languages}
-Mandarin Chinese (native), English (proficient).
+\cvline{}{Programming: Python, C/C++, JavaScript.}
+\cvline{}{Research areas: Machine learning, reinforcement learning, large language models.}
+\cvline{}{Languages: Mandarin Chinese (native), English (proficient).}
 
 \end{document}
