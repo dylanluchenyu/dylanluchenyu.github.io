@@ -13,8 +13,6 @@ classes: wide
 <section class="landing-hero">
   <div class="landing-copy">
     <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
-    <h2>Interested in machine learning, reinforcement learning, and LLMs.</h2>
-    <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My recent work connects these interests with computer-use agents and open-source research infrastructure.</p>
     <div class="landing-links">
       <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
       <a class="btn btn--inverse" href="#publications">Publications</a>
@@ -27,8 +25,8 @@ classes: wide
     <p>Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
-    <span><strong>GPA</strong> 3.863</span>
-    <span><strong>Focus</strong> ML, RL, LLMs</span>
+    <span><strong>CGA</strong> 3.863 / 4.3</span>
+    <span><strong>Major GPA</strong> 4.014 / 4.3</span>
     <span><strong>Current</strong> HKUST undergraduate researcher</span>
   </div>
 </section>
@@ -147,5 +145,6 @@ classes: wide
 
 - **Degree:** B.S. in Computer Science & Mathematics, HKUST.
 - **Expected graduation:** June 2028.
-- **GPA:** 3.863.
+- **CGA:** 3.863 / 4.3.
+- **Major GPA:** 4.014 / 4.3, calculated from COMP and MATH coursework.
 - **Languages:** Mandarin Chinese (native), English (proficient).

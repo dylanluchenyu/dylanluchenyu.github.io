@@ -16,7 +16,8 @@ redirect_from:
 Education
 ======
 * Bachelor of Science in Computer Science & Mathematics, Hong Kong University of Science and Technology, Sep 2024 - Jun 2028
-  * GPA: 3.863
+  * CGA: 3.863 / 4.3
+  * Major GPA: 4.014 / 4.3, calculated from COMP and MATH coursework
   * Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology
 
 * Student Member, The Hong Kong Institution of Engineers, 2026 - 2027
