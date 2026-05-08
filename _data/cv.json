@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning and reinforcement learning. Research experience includes GUI agents and blockchain protocol analysis, together with undergraduate teaching and open-source project contribution.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning, and LLMs. Research experience includes GUI agents and blockchain protocol analysis, together with undergraduate teaching and open-source project contribution.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -55,7 +55,8 @@
       "name": "Research Areas",
       "keywords": [
         "Machine Learning",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "Large Language Models"
       ]
     },
     {
@@ -84,7 +85,8 @@
       "name": "Research Interests",
       "keywords": [
         "Machine Learning",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "Large Language Models"
       ]
     }
   ],

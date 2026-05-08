@@ -13,8 +13,8 @@ classes: wide
 <section class="landing-hero">
   <div class="landing-copy">
     <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
-    <h2>Building strong mathematical foundations for secure systems and capable agents.</h2>
-    <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My research interests are machine learning and reinforcement learning, with recent work in computer-use agents.</p>
+    <h2>Interested in machine learning, reinforcement learning, and LLMs.</h2>
+    <p class="landing-summary">I am a Bachelor of Science student at the Hong Kong University of Science and Technology, expecting to graduate in June 2028. My recent work connects these interests with computer-use agents and open-source research infrastructure.</p>
     <div class="landing-links">
       <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
       <a class="btn btn--inverse" href="#publications">Publications</a>
@@ -28,7 +28,7 @@ classes: wide
   </div>
   <div class="landing-stats" aria-label="Profile summary">
     <span><strong>GPA</strong> 3.863</span>
-    <span><strong>Focus</strong> ML, RL, computer-use agents</span>
+    <span><strong>Focus</strong> ML, RL, LLMs</span>
     <span><strong>Current</strong> HKUST undergraduate researcher</span>
   </div>
 </section>
@@ -36,8 +36,8 @@ classes: wide
 <section class="highlight-grid">
   <article class="highlight-card">
     <span class="highlight-label">Research focus</span>
-    <h3>Machine learning and reinforcement learning</h3>
-    <p>I am interested in learning-based agents, reinforcement learning, and evaluation methods for reliable computer-use systems.</p>
+    <h3>ML, RL, and LLMs</h3>
+    <p>I am interested in learning-based agents, reinforcement learning, and large language models for reliable computer-use systems.</p>
   </article>
   <article class="highlight-card">
     <span class="highlight-label">Recent work</span>

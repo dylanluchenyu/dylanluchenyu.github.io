@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Chenyu Lu"
 title_separator          : "-"
 name                     : &name "Chenyu Lu"
-description              : &description "Computer Science & Mathematics student at HKUST interested in machine learning and reinforcement learning."
+description              : &description "Computer Science & Mathematics student at HKUST interested in machine learning, reinforcement learning, and LLMs."
 url                      : https://dylanluchenyu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Chenyu Lu"
   pronouns         :  "he/him"
-  bio              : "HKUST Computer Science & Mathematics student interested in machine learning and reinforcement learning."
+  bio              : "HKUST Computer Science & Mathematics student interested in machine learning, reinforcement learning, and LLMs."
   location         : "Hong Kong"
   employer         : "Hong Kong University of Science and Technology (HKUST)"
   uri              :  https://hkust.edu.hk/

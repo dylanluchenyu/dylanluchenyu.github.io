@@ -69,7 +69,7 @@ Awards and Honors
 Skills
 ======
 * Programming: Python, C/C++, JavaScript
-* Research areas: Machine learning, reinforcement learning
+* Research areas: Machine learning, reinforcement learning, large language models
 * Languages: Mandarin Chinese (native), English (proficient)
 
 Teaching
