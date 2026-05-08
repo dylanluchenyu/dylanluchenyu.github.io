@@ -146,7 +146,7 @@ classes: wide
 # 🎓 Teaching
 
 - **Teaching Assistant**, `COMP2711 Discrete Mathematics`, HKUST, Fall 2025.
-- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, 2026.03.
+- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, Spring, 2026.
 
 <span class="anchor" id="snapshot"></span>
 
