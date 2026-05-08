@@ -14,4 +14,4 @@ This co-authored paper was accepted to ICLR 2026 as an Oral presentation.
 
 Authors include Zhaoyang Liu, Jingjing Xie, ..., Chenyu Lu, Yunxiang Mo, ..., Wenhai Wang.
 
-My contribution focused on data pipeline and cross-platform workflow components in the open-source codebase.
+My contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.

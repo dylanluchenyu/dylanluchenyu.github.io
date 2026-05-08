@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with interests in cryptography, blockchain protocols, AI systems, and discrete mathematics. Research experience includes GUI agents and blockchain protocol analysis, together with undergraduate teaching and open-source project contribution.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning and reinforcement learning. Research experience includes GUI agents and blockchain protocol analysis, together with undergraduate teaching and open-source project contribution.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -54,11 +54,8 @@
     {
       "name": "Research Areas",
       "keywords": [
-        "Cryptography",
-        "Blockchain Protocols",
         "Machine Learning",
-        "Computer Vision",
-        "Discrete Mathematics"
+        "Reinforcement Learning"
       ]
     },
     {
@@ -86,10 +83,8 @@
     {
       "name": "Research Interests",
       "keywords": [
-        "Cryptography",
-        "Blockchain Systems",
-        "AI Systems",
-        "Discrete Mathematics"
+        "Machine Learning",
+        "Reinforcement Learning"
       ]
     }
   ],
@@ -136,14 +131,14 @@
       "category": "Open-source research project",
       "date": "2025-08-01",
       "url": "https://github.com/OpenGVLab/ScaleCUA",
-      "description": "Contribution work connected to GUI agent research and large-scale data preparation."
+      "description": "Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase."
     },
     {
-      "name": "HKUST Past Paper Resource",
-      "category": "Academic infrastructure project",
-      "date": "2026-01-01",
-      "url": "https://github.com/dylanluchenyu/hkust-pastpaper",
-      "description": "Student-facing resource project for organizing and serving academic materials more accessibly."
+      "name": "Proof Preview",
+      "category": "Offline LaTeX proof viewer",
+      "date": "2026-05-07",
+      "url": "https://github.com/dylanluchenyu/proof-preview",
+      "description": "Local HTML viewer with bundled KaTeX and a command-line helper for previewing math proofs written with Codex."
     }
   ],
   "awards": [
@@ -155,17 +150,20 @@
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2024-2025",
-      "summary": "Fall and Spring semesters"
+      "date": "2024 Fall"
     },
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2025-2026",
-      "summary": "Fall semester"
+      "date": "2025 Spring"
     },
     {
-      "title": "Talent Development Scholarship",
+      "title": "Dean's List",
+      "awarder": "The Hong Kong University of Science and Technology",
+      "date": "2025 Fall"
+    },
+    {
+      "title": "HKSAR Government Scholarship Fund - Talent Development Scholarship",
       "awarder": "HKSAR Government Scholarship Fund",
       "date": "2024-2025"
     },
@@ -207,7 +205,7 @@
         "Prof. Qifeng Chen",
         "Dr. Zhaoyang Liu"
       ],
-      "description": "Performed large-scale data collection and preprocessing for GUI agent research and contributed to the ScaleCUA open-source project."
+      "description": "Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase."
     }
   ]
 }

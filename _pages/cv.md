@@ -35,7 +35,7 @@ Research Experience
   * Supervisors: Prof. Qifeng Chen, Dr. Zhaoyang Liu
   * Performed large-scale data collection and preprocessing for GUI agent research
   * Co-authored ScaleCUA, accepted to ICLR 2026 as an Oral paper
-  * Contributed data pipeline and cross-platform workflow components to OpenGVLab/ScaleCUA
+  * Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase
 
 Publications
 ======
@@ -57,9 +57,10 @@ Teaching Experience
 Awards and Honors
 ======
 * Champion, 10th HKUST Undergraduate Mathematics Competition (Junior Division), Apr 2025
-* Dean's List (Full-Time), Fall and Spring 2024 - 2025, HKUST
-* Dean's List (Full-Time), Fall 2025 - 2026, HKUST
-* Talent Development Scholarship, HKSAR Government Scholarship Fund, 2024 - 2025
+* Dean's List (Full-Time), Fall 2024, HKUST
+* Dean's List (Full-Time), Spring 2025, HKUST
+* Dean's List (Full-Time), Fall 2025, HKUST
+* HKSAR Government Scholarship Fund - Talent Development Scholarship, 2024 - 2025
 * First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022
 * Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University
 * Top 99% National Ranking, Yau Shing-tung Math Test, Aug 2023
@@ -68,15 +69,9 @@ Awards and Honors
 Skills
 ======
 * Programming: Python, C/C++, JavaScript
-* Research areas: Cryptography, blockchain protocols, machine learning, computer vision, discrete mathematics
+* Research areas: Machine learning, reinforcement learning
 * Languages: Mandarin Chinese (native), English (proficient)
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
