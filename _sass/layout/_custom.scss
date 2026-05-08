@@ -218,12 +218,23 @@ html[data-theme="dark"] body {
 }
 
 .landing-links .btn--primary {
+  color: #ffffff !important;
   background: var(--academic-sky) !important;
+  box-shadow: 0 0 18px rgba(92, 200, 255, 0.28);
 }
 
 .landing-links .btn--inverse {
-  color: #002b36 !important;
-  background: var(--academic-teal) !important;
+  color: #ffffff !important;
+  background: #0f6f9f !important;
+  box-shadow: 0 0 18px rgba(80, 227, 194, 0.24);
+}
+
+.landing-links .btn--inverse:link,
+.landing-links .btn--inverse:visited,
+.landing-links .btn--inverse:hover,
+.landing-links .btn--inverse:focus {
+  color: #ffffff !important;
+  background: #0f87bd !important;
 }
 
 .btn--light-outline {
