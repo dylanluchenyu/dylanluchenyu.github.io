@@ -116,6 +116,28 @@ html[data-theme="dark"] body {
   }
 }
 
+.profile-block {
+  margin: 0 0 1.6rem;
+  padding: 1rem 1.15rem;
+  background: rgba(0, 25, 35, 0.78);
+  border: 1px solid var(--academic-rule);
+  border-left: 4px solid var(--academic-sky);
+  border-radius: 6px;
+
+  h2 {
+    margin: 0 0 0.45rem;
+    color: var(--academic-ink);
+    font-size: 1.08rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--academic-muted);
+    font-size: 0.96rem;
+    line-height: 1.58;
+  }
+}
+
 .landing-hero {
   position: relative;
   display: grid;

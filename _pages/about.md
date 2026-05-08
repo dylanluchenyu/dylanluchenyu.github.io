@@ -31,6 +31,11 @@ classes: wide
   </div>
 </section>
 
+<section class="profile-block">
+  <h2>Profile</h2>
+  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I enjoy connecting mathematical structure with practical research infrastructure, especially in computer-use-agent evaluation.</p>
+</section>
+
 <section class="highlight-grid">
   <article class="highlight-card">
     <span class="highlight-label">Research focus</span>
