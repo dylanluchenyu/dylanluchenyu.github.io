@@ -51,7 +51,7 @@ Teaching Experience
   * Provided academic guidance on core discrete mathematics concepts
   * Assisted with assignment arrangement and course support
 
-* Undergraduate Teaching Assistant, COMP4900, HKUST, Sep 2025 - Dec 2025
+* Undergraduate Teaching Assistant, COMP4900 Graduation Requirements, HKUST, 2026.03
   * Helped students understand graduation requirements
   * Assisted with seminar registration checks and course administration
 

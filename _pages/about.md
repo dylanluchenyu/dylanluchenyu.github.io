@@ -60,14 +60,18 @@ classes: wide
 
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.05*: Built [Proof Preview](/project/proof-preview/), an offline LaTeX proof viewer for studying math with Codex.
+- *2026.03*: Began undergraduate teaching assistant role for **COMP4900 Graduation Requirements** at HKUST.
 - *2025.09*: Started UROP research on the **Zeto Project**, studying blockchain account models and cryptographic foundations.
-- *2025.09*: Began undergraduate teaching assistant roles for **COMP2711 Discrete Mathematics** and **COMP4900** at HKUST.
+- *2025.09*: Began undergraduate teaching assistant role for **COMP2711 Discrete Mathematics** at HKUST.
 - *2025.08*: Completed GUI-agent research work connected to [OpenGVLab / ScaleCUA](/project/scalecua-contribution/).
 - *2025.04*: Won **Champion** in the 10th HKUST Undergraduate Mathematics Competition, Junior Division.
 
 <span class="anchor" id="experience"></span>
 
 # 💼 Experience
+
+- *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
+  Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
 
 - *Sep 2025 - Dec 2025* \| **UROP Research Assistant, Zeto Project**, HKUST<br>
   Supervised by Prof. Dimitris Papadopoulos and Dr. Jiajun Xin. Conducted comparative analysis of UTXO and account-based models, studied cryptographic foundations for protocol validation, and supported project documentation and coordination.
@@ -76,7 +80,7 @@ classes: wide
   Supervised by Prof. Qifeng Chen and Dr. Zhaoyang Liu. Co-authored a computer-use-agent preprint. Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
 
 - *Sep 2025 - Dec 2025* \| **Undergraduate Teaching Assistant**, HKUST<br>
-  Supported `COMP2711 Discrete Mathematics` and `COMP4900`, helping students with discrete math concepts, graduation requirements, and course logistics.
+  Supported `COMP2711 Discrete Mathematics`, helping students with core discrete mathematics concepts and course logistics.
 
 <span class="anchor" id="publications"></span>
 
@@ -142,7 +146,7 @@ classes: wide
 # 🎓 Teaching
 
 - **Teaching Assistant**, `COMP2711 Discrete Mathematics`, HKUST, Fall 2025.
-- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, Fall 2025.
+- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, 2026.03.
 
 <span class="anchor" id="snapshot"></span>
 

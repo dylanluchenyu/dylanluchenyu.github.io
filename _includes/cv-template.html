@@ -208,7 +208,9 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ teaching.course }}</div>
-          <div class="cv-item-date">{{ teaching.date | slice: 0, 4 }}</div>
+          <div class="cv-item-date">
+            {{ teaching.date | date: "%Y.%m" }}{% if teaching.endDate %} - {{ teaching.endDate | date: "%Y.%m" }}{% endif %}
+          </div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ teaching.institution }}</div>
