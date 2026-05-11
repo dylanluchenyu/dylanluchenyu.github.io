@@ -58,6 +58,7 @@ classes: wide
 
 # 🔥 News
 
+- *2026.05*: Won **Champion** in the 11th HKUST Undergraduate Mathematics Competition, Junior Division.
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.05*: Built [Proof Preview](/project/proof-preview/), an offline LaTeX proof viewer for studying math with Codex.
 - *2026.03*: Began undergraduate teaching assistant role for **COMP4900 Graduation Requirements** at HKUST.
@@ -132,6 +133,7 @@ classes: wide
 
 # 🏆 Honors and Awards
 
+- **Champion**, 11th HKUST Undergraduate Mathematics Competition, Junior Division, May 2026.
 - **Champion**, 10th HKUST Undergraduate Mathematics Competition, Junior Division, Apr 2025.
 - **Dean's List**, Fall 2024, HKUST.
 - **Dean's List**, Spring 2025, HKUST.

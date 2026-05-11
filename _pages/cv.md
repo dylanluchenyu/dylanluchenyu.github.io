@@ -57,6 +57,7 @@ Teaching Experience
 
 Awards and Honors
 ======
+* Champion, 11th HKUST Undergraduate Mathematics Competition (Junior Division), May 2026
 * Champion, 10th HKUST Undergraduate Mathematics Competition (Junior Division), Apr 2025
 * Dean's List (Full-Time), Fall 2024, HKUST
 * Dean's List (Full-Time), Spring 2025, HKUST
