@@ -22,8 +22,6 @@ Education
 
 * Student Member, The Hong Kong Institution of Engineers, 2026 - 2027
 
-* Exchange Student, HKUST Summer Study Abroad, Tallinn University, Jul 2026
-
 Internship Experience
 ======
 * Part-time Intern, Hong Kong Observatory, Jun 2026 - Present
