@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning theory, and LLMs. Current work includes research assistant work in reinforcement learning theory, independent work in computer-use agents, and a part-time internship at the Hong Kong Observatory.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in statistical machine learning and learning theory. Current work includes research assistant work in average reward reinforcement learning, independent work on web fetch agents, and a part-time internship at the Hong Kong Observatory.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -38,7 +38,6 @@
       "endDate": "2028-06",
       "gpa": "3.906 / 4.3",
       "majorGpa": "4.028 / 4.3",
-      "creditsEarned": "69.0",
       "courses": [
         "Data Structures",
         "Computer Organization",
@@ -69,9 +68,9 @@
     {
       "name": "Research Areas",
       "keywords": [
-        "Machine Learning",
-        "Reinforcement Learning Theory",
-        "Large Language Models"
+        "Statistical Machine Learning",
+        "Learning Theory",
+        "Reinforcement Learning"
       ]
     },
     {
@@ -101,9 +100,9 @@
     {
       "name": "Research Interests",
       "keywords": [
-        "Machine Learning",
-        "Reinforcement Learning Theory",
-        "Large Language Models"
+        "Statistical Machine Learning",
+        "Learning Theory",
+        "Reinforcement Learning"
       ]
     }
   ],
@@ -226,24 +225,24 @@
   ],
   "research": [
     {
-      "title": "Research Assistant, Reinforcement Learning Theory",
+      "title": "Research Assistant, Average Reward Reinforcement Learning",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
       "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Nian Si"
       ],
-      "description": "Working on reinforcement learning theory and decision-making under uncertainty, supporting ongoing research through mathematical modeling, literature study, and proof development."
+      "description": "Working on average reward reinforcement learning, supporting ongoing research through mathematical modeling, literature study, and proof development."
     },
     {
-      "title": "Independent Work, Machine Learning / Computer-Use Agents",
+      "title": "Independent Work, Web Fetch Agents",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
       "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Qifeng Chen"
       ],
-      "description": "Continuing ML and computer-use-agent research, building on prior ScaleCUA experience in large-scale data preparation, evaluation workflows, and reliable agent research infrastructure."
+      "description": "Working on web fetch agents, building on prior ScaleCUA experience in data preparation, evaluation workflows, and agent workflows."
     },
     {
       "title": "UROP Research Assistant, Zeto Project",

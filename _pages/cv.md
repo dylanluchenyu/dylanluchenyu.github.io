@@ -18,7 +18,6 @@ Education
 * Bachelor of Science in Computer Science & Mathematics, Hong Kong University of Science and Technology, Sep 2024 - Jun 2028
   * CGA: 3.906 / 4.3
   * Major GPA: 4.028 / 4.3, calculated from graded COMP and MATH coursework
-  * Cumulative credits earned: 69.0
   * Relevant coursework: Data Structures, Computer Organization, Algorithms, Operating Systems, Linear Algebra, Probability, Multivariable Calculus, Mathematical Analysis, Game Theory, Topology
 
 * Student Member, The Hong Kong Institution of Engineers, 2026 - 2027
@@ -33,15 +32,15 @@ Internship Experience
 
 Research Experience
 ======
-* Research Assistant, Reinforcement Learning Theory, HKUST, Jun 2026 - Present
+* Research Assistant, Average Reward Reinforcement Learning, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Nian Si
-  * Working on reinforcement learning theory and decision-making under uncertainty
+  * Working on average reward reinforcement learning
   * Supporting ongoing research through mathematical modeling, literature study, and proof development
 
-* Independent Work, Machine Learning / Computer-Use Agents, HKUST, Jun 2026 - Present
+* Independent Work, Web Fetch Agents, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Qifeng Chen
-  * Continuing ML and computer-use-agent research, building on prior ScaleCUA experience
-  * Connecting large-scale data preparation, evaluation workflows, and reliable agent research infrastructure
+  * Working on web fetch agents, building on prior ScaleCUA experience
+  * Connecting data preparation, evaluation workflows, and agent workflows
 
 * UROP Research Assistant, Zeto Project, HKUST, Sep 2025 - Dec 2025
   * Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
@@ -100,7 +99,7 @@ Awards and Honors
 Skills
 ======
 * Programming: Python, C/C++, JavaScript
-* Research areas: Machine learning, reinforcement learning theory, large language models
+* Research areas: Statistical machine learning, learning theory, reinforcement learning
 * Languages: Mandarin Chinese (native), English (proficient)
 
 Teaching

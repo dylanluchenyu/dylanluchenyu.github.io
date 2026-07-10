@@ -21,37 +21,18 @@ classes: wide
   </div>
   <div class="landing-note">
     <span>Research interests</span>
-    <strong>RL, ML, and Data</strong>
-    <p>Interests in reinforcement learning theory, learning-based agents, and data analysis for applied systems.</p>
+    <strong>Statistical ML and Learning Theory</strong>
+    <p>Interests in statistical machine learning, learning theory, and reinforcement learning.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
     <span><strong>CGA</strong> 3.906 / 4.3</span>
     <span><strong>Major GPA</strong> 4.028 / 4.3</span>
-    <span><strong>Credits</strong> 69.0 earned</span>
   </div>
 </section>
 
 <section class="profile-block">
   <h2>Profile</h2>
-  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I am currently a research assistant with Prof. Nian Si, doing independent work under Prof. Qifeng Chen, and a part-time intern at the Hong Kong Observatory.</p>
-</section>
-
-<section class="highlight-grid">
-  <article class="highlight-card">
-    <span class="highlight-label">Interest</span>
-    <h3>Reinforcement learning</h3>
-    <p>I am interested in mathematical questions in reinforcement learning and decision-making under uncertainty.</p>
-  </article>
-  <article class="highlight-card">
-    <span class="highlight-label">Interest</span>
-    <h3>Computer-use agents</h3>
-    <p>I am also interested in data, evaluation, and workflow design for computer-use-agent research.</p>
-  </article>
-  <article class="highlight-card">
-    <span class="highlight-label">Interest</span>
-    <h3>Aviation data</h3>
-    <p>Through my internship, I am learning about real-world aviation data analysis and AI applications.</p>
-  </article>
+  <p>HKUST Computer Science and Mathematics undergraduate interested in statistical machine learning and learning theory. I am currently a research assistant with Prof. Nian Si, doing independent work under Prof. Qifeng Chen, and a part-time intern at the Hong Kong Observatory.</p>
 </section>
 
 <span class="anchor" id="news"></span>
@@ -59,8 +40,8 @@ classes: wide
 # 🔥 News
 
 - *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
-- *2026.06*: Began research assistant work with **Prof. Nian Si** on reinforcement learning theory.
-- *2026.06*: Began independent work under **Prof. Qifeng Chen**, building on prior computer-use-agent research.
+- *2026.06*: Began research assistant work with **Prof. Nian Si** on average reward reinforcement learning.
+- *2026.06*: Began independent work under **Prof. Qifeng Chen** on web fetch agents.
 - *2026.05*: Won **Champion** in the 11th HKUST Undergraduate Mathematics Competition, Junior Division.
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.03*: Began undergraduate teaching assistant role for **COMP4900 Graduation Requirements** at HKUST.
@@ -76,11 +57,11 @@ classes: wide
 - *Jun 2026 - Present* \| **Part-time Intern**, Hong Kong Observatory<br>
   Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects, including real-world aviation data analysis and AI applications.
 
-- *Jun 2026 - Present* \| **Research Assistant, Reinforcement Learning Theory**, HKUST<br>
-  Supervised by Prof. Nian Si. Working on reinforcement learning theory and decision-making under uncertainty, with a focus on mathematical modeling, literature study, and proof development for ongoing research.
+- *Jun 2026 - Present* \| **Research Assistant, Average Reward Reinforcement Learning**, HKUST<br>
+  Supervised by Prof. Nian Si. Working on average reward reinforcement learning, with a focus on mathematical modeling, literature study, and proof development for ongoing research.
 
-- *Jun 2026 - Present* \| **Independent Work, Machine Learning / Computer-Use Agents**, HKUST<br>
-  Supervised by Prof. Qifeng Chen. Continuing ML and computer-use-agent research, building on prior ScaleCUA experience.
+- *Jun 2026 - Present* \| **Independent Work, Web Fetch Agents**, HKUST<br>
+  Supervised by Prof. Qifeng Chen. Working on web fetch agents, building on prior ScaleCUA experience in data, evaluation, and agent workflows.
 
 - *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
@@ -147,7 +128,7 @@ classes: wide
       <a class="paper-link-details" href="/project/scalecua-contribution/">Details</a>
     </p>
     <p class="paper-title"><a href="/project/scalecua-contribution/">OpenGVLab / ScaleCUA Contribution</a></p>
-    <p class="paper-meta"><strong>GUI-agent research infrastructure</strong></p>
+    <p class="paper-meta"><strong>GUI-agent project contribution</strong></p>
     <p class="paper-extra">Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
   </div>
 </div>
@@ -183,5 +164,4 @@ classes: wide
 - **Expected graduation:** June 2028.
 - **CGA:** 3.906 / 4.3.
 - **Major GPA:** 4.028 / 4.3, calculated from graded COMP and MATH coursework.
-- **Cumulative credits earned:** 69.0.
 - **Languages:** Mandarin Chinese (native), English (proficient).
