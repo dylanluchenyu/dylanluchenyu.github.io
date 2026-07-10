@@ -1,6 +1,6 @@
 \documentclass[10pt,a4paper]{article}
 
-\usepackage[margin=0.78in]{geometry}
+\usepackage[margin=0.58in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{xcolor}
@@ -15,19 +15,19 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\tabcolsep}{0pt}
-\renewcommand{\arraystretch}{1.06}
+\renewcommand{\arraystretch}{1.0}
 
 \newlength{\datecol}
-\setlength{\datecol}{1.28in}
+\setlength{\datecol}{1.15in}
 \newlength{\bodycol}
 \setlength{\bodycol}{\dimexpr\textwidth-\datecol-0.22in\relax}
 
 \newcommand{\cvsection}[1]{%
-  \vspace{0.95em}
+  \vspace{0.52em}
   \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
     & {\large\bfseries #1}\\[-0.22em]
     & {\color{hkustblue}\rule{\bodycol}{0.45pt}}
-  \end{tabular}\par\vspace{0.32em}
+  \end{tabular}\par\vspace{0.2em}
 }
 
 \newcommand{\cventry}[4]{%
@@ -51,8 +51,8 @@
   &
   \begin{minipage}[t]{\bodycol}
   \begin{itemize}
-  \setlength{\itemsep}{0.08em}
-  \setlength{\topsep}{0.12em}
+  \setlength{\itemsep}{0.02em}
+  \setlength{\topsep}{0.04em}
   \setlength{\parsep}{0pt}
   \setlength{\leftmargin}{1.15em}
 }{%
@@ -61,11 +61,11 @@
   \end{tabular}\par
 }
 
-\newcommand{\entrysep}{\vspace{0.34em}}
+\newcommand{\entrysep}{\vspace{0.16em}}
 
 \begin{document}
 \color{textgray}
-\fontsize{9.5pt}{11.2pt}\selectfont
+\fontsize{8.8pt}{10.2pt}\selectfont
 
 \begin{tabular}{@{}>{\arraybackslash}p{0.52\textwidth}@{\hfill}>{\raggedleft\arraybackslash}p{0.42\textwidth}@{}}
   {\LARGE\bfseries Chenyu Lu} &
@@ -79,14 +79,14 @@
 \end{tabular}
 
 \cvsection{Profile}
-\cvline{}{HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I enjoy connecting mathematical structure with practical research infrastructure, especially in computer-use-agent evaluation.}
+\cvline{}{HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I am currently a research assistant with Prof. Nian Si and Prof. Qifeng Chen, connecting mathematical structure with practical research infrastructure.}
 
 \cvsection{Education}
 \cventry{Sep 2024 -- Jun 2028}{Bachelor of Science in Computer Science \& Mathematics}{, Hong Kong University of Science and Technology}{Hong Kong}
 \begin{cvitems}
-  \item CGA: 3.863 / 4.3.
-  \item Major GPA: 4.014 / 4.3, calculated from COMP and MATH coursework.
-  \item Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology.
+  \item CGA: 3.906 / 4.3; Major GPA: 4.028 / 4.3, calculated from graded COMP and MATH coursework.
+  \item Cumulative credits earned: 69.0.
+  \item Relevant coursework: Data Structures, Computer Organization, Algorithms, Operating Systems, Linear Algebra, Probability, Multivariable Calculus, Mathematical Analysis, Game Theory, Topology.
 \end{cvitems}
 \entrysep
 \cventry{Jul 2026}{Exchange Student}{, HKUST Summer Study Abroad, Tallinn University}{Tallinn, Estonia}
@@ -100,6 +100,20 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
 \textcolor{muted}{Contribution: data pipeline and cross-platform workflow components in the open-source codebase.}}
 
 \cvsection{Research Experience}
+\cventry{Jul 2026 -- Present}{Research Assistant}{, Reinforcement Learning Theory, HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Supervisor: Prof. Nian Si.
+  \item Working on reinforcement learning theory and decision-making under uncertainty.
+  \item Supporting ongoing research through mathematical modeling, literature study, and proof development.
+\end{cvitems}
+\entrysep
+\cventry{Jul 2026 -- Present}{Research Assistant}{, Machine Learning / Computer-Use Agents, HKUST}{Hong Kong}
+\begin{cvitems}
+  \item Supervisor: Prof. Qifeng Chen.
+  \item Continuing ML and computer-use-agent research, building on prior ScaleCUA experience.
+  \item Connecting large-scale data preparation, evaluation workflows, and reliable agent research infrastructure.
+\end{cvitems}
+\entrysep
 \cventry{Jun 2025 -- Aug 2025}{UROP Research Assistant}{, GUI Agent Project, HKUST}{Hong Kong}
 \begin{cvitems}
   \item Supervisors: Prof. Qifeng Chen and Dr. Zhaoyang Liu.
@@ -116,6 +130,7 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
   \item Assisted with research documentation, data sorting, and project coordination.
 \end{cvitems}
 
+\newpage
 \cvsection{Projects}
 \cventry{2025}{OpenGVLab / ScaleCUA Contribution}{, open-source computer-use-agent research infrastructure}{}
 \begin{cvitems}
@@ -149,14 +164,16 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
 \cvline{Fall 2024}{Dean's List, HKUST.}
 \cvline{Spring 2025}{Dean's List, HKUST.}
 \cvline{Fall 2025}{Dean's List, HKUST.}
+\cvline{Spring 2026}{Dean's List, HKUST.}
 \cvline{2024--2025}{HKSAR Government Scholarship Fund - Talent Development Scholarship.}
+\cvline{2025--2026}{University's Scholarship Scheme for Continuing Undergraduate Students.}
 \cvline{Sep 2022}{First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society.}
 \cvline{}{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.}
 \cvline{Aug 2023}{Top 99\% National Ranking, Yau Shing-tung Math Test.}
 
 \cvsection{Skills}
 \cvline{}{Programming: Python, C/C++, JavaScript.}
-\cvline{}{Research areas: Machine learning, reinforcement learning, large language models.}
+\cvline{}{Research areas: Machine learning, reinforcement learning theory, large language models.}
 \cvline{}{Languages: Mandarin Chinese (native), English (proficient).}
 
 \end{document}

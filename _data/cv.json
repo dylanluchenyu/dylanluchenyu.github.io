@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning, and LLMs. Research experience includes GUI agents and blockchain protocol analysis, together with undergraduate teaching and open-source project contribution.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning theory, and LLMs. Current research assistant work includes reinforcement learning theory and computer-use-agent research.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -26,13 +26,18 @@
       "studyType": "Undergraduate",
       "startDate": "2024-09",
       "endDate": "2028-06",
-      "gpa": "3.863",
+      "gpa": "3.906 / 4.3",
+      "majorGpa": "4.028 / 4.3",
+      "creditsEarned": "69.0",
       "courses": [
-        "Calculus",
-        "Discrete Mathematics",
-        "Cryptography",
-        "Programming Fundamentals",
+        "Data Structures",
+        "Computer Organization",
+        "Algorithms",
+        "Operating Systems",
         "Linear Algebra",
+        "Probability",
+        "Multivariable Calculus",
+        "Mathematical Analysis",
         "Game Theory",
         "Topology"
       ],
@@ -55,7 +60,7 @@
       "name": "Research Areas",
       "keywords": [
         "Machine Learning",
-        "Reinforcement Learning",
+        "Reinforcement Learning Theory",
         "Large Language Models"
       ]
     },
@@ -64,6 +69,8 @@
       "keywords": [
         "Large-Scale Data Collection",
         "Data Preprocessing",
+        "Mathematical Proof Development",
+        "Agent Evaluation Workflows",
         "Protocol Analysis",
         "Academic Documentation",
         "Open-Source Contribution"
@@ -85,7 +92,7 @@
       "name": "Research Interests",
       "keywords": [
         "Machine Learning",
-        "Reinforcement Learning",
+        "Reinforcement Learning Theory",
         "Large Language Models"
       ]
     }
@@ -169,9 +176,19 @@
       "date": "2025 Fall"
     },
     {
+      "title": "Dean's List",
+      "awarder": "The Hong Kong University of Science and Technology",
+      "date": "2026 Spring"
+    },
+    {
       "title": "HKSAR Government Scholarship Fund - Talent Development Scholarship",
       "awarder": "HKSAR Government Scholarship Fund",
       "date": "2024-2025"
+    },
+    {
+      "title": "University's Scholarship Scheme for Continuing Undergraduate Students",
+      "awarder": "The Hong Kong University of Science and Technology",
+      "date": "2025-2026"
     },
     {
       "title": "First Prize",
@@ -191,6 +208,26 @@
     }
   ],
   "research": [
+    {
+      "title": "Research Assistant, Reinforcement Learning Theory",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2026-07",
+      "endDate": "Present",
+      "supervisors": [
+        "Prof. Nian Si"
+      ],
+      "description": "Working on reinforcement learning theory and decision-making under uncertainty, supporting ongoing research through mathematical modeling, literature study, and proof development."
+    },
+    {
+      "title": "Research Assistant, Machine Learning / Computer-Use Agents",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "startDate": "2026-07",
+      "endDate": "Present",
+      "supervisors": [
+        "Prof. Qifeng Chen"
+      ],
+      "description": "Continuing ML and computer-use-agent research, building on prior ScaleCUA experience in large-scale data preparation, evaluation workflows, and reliable agent research infrastructure."
+    },
     {
       "title": "UROP Research Assistant, Zeto Project",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",

@@ -16,9 +16,10 @@ redirect_from:
 Education
 ======
 * Bachelor of Science in Computer Science & Mathematics, Hong Kong University of Science and Technology, Sep 2024 - Jun 2028
-  * CGA: 3.863 / 4.3
-  * Major GPA: 4.014 / 4.3, calculated from COMP and MATH coursework
-  * Relevant coursework: Calculus, Discrete Mathematics, Cryptography, Programming Fundamentals, Linear Algebra, Game Theory, Topology
+  * CGA: 3.906 / 4.3
+  * Major GPA: 4.028 / 4.3, calculated from graded COMP and MATH coursework
+  * Cumulative credits earned: 69.0
+  * Relevant coursework: Data Structures, Computer Organization, Algorithms, Operating Systems, Linear Algebra, Probability, Multivariable Calculus, Mathematical Analysis, Game Theory, Topology
 
 * Student Member, The Hong Kong Institution of Engineers, 2026 - 2027
 
@@ -26,6 +27,16 @@ Education
 
 Research Experience
 ======
+* Research Assistant, Reinforcement Learning Theory, HKUST, Jul 2026 - Present
+  * Supervisor: Prof. Nian Si
+  * Working on reinforcement learning theory and decision-making under uncertainty
+  * Supporting ongoing research through mathematical modeling, literature study, and proof development
+
+* Research Assistant, Machine Learning / Computer-Use Agents, HKUST, Jul 2026 - Present
+  * Supervisor: Prof. Qifeng Chen
+  * Continuing ML and computer-use-agent research, building on prior ScaleCUA experience
+  * Connecting large-scale data preparation, evaluation workflows, and reliable agent research infrastructure
+
 * UROP Research Assistant, Zeto Project, HKUST, Sep 2025 - Dec 2025
   * Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
   * Conducted comparative analysis of UTXO and account-based models for blockchain protocol research
@@ -62,7 +73,9 @@ Awards and Honors
 * Dean's List (Full-Time), Fall 2024, HKUST
 * Dean's List (Full-Time), Spring 2025, HKUST
 * Dean's List (Full-Time), Fall 2025, HKUST
+* Dean's List (Full-Time), Spring 2026, HKUST
 * HKSAR Government Scholarship Fund - Talent Development Scholarship, 2024 - 2025
+* University's Scholarship Scheme for Continuing Undergraduate Students, 2025 - 2026
 * First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022
 * Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University
 * Top 99% National Ranking, Yau Shing-tung Math Test, Aug 2023
@@ -71,7 +84,7 @@ Awards and Honors
 Skills
 ======
 * Programming: Python, C/C++, JavaScript
-* Research areas: Machine learning, reinforcement learning, large language models
+* Research areas: Machine learning, reinforcement learning theory, large language models
 * Languages: Mandarin Chinese (native), English (proficient)
 
 Teaching

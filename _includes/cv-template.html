@@ -82,12 +82,44 @@
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
           {% if education.gpa %}
-          <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
+          <div class="cv-item-detail">CGA: {{ education.gpa }}</div>
+          {% endif %}
+          {% if education.majorGpa %}
+          <div class="cv-item-detail">Major GPA: {{ education.majorGpa }}</div>
+          {% endif %}
+          {% if education.creditsEarned %}
+          <div class="cv-item-detail">Cumulative credits earned: {{ education.creditsEarned }}</div>
           {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
             <strong>Courses:</strong> {{ education.courses | join: ", " }}
           </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.research.size > 0 %}
+  <!-- Research Experience -->
+  <div class="cv-section">
+    <h2>Research Experience</h2>
+    <ul class="cv-list">
+      {% for research in cv.research %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ research.title }}</div>
+          <div class="cv-item-date">{{ research.startDate }}{% if research.endDate %} - {{ research.endDate }}{% endif %}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ research.institution }}</div>
+          {% if research.supervisors.size > 0 %}
+          <div class="cv-item-detail">Supervisor{% if research.supervisors.size > 1 %}s{% endif %}: {{ research.supervisors | join: ", " }}</div>
+          {% endif %}
+          {% if research.description %}
+          <div class="cv-item-detail">{{ research.description }}</div>
           {% endif %}
         </div>
       </li>

@@ -21,31 +21,31 @@ classes: wide
   </div>
   <div class="landing-note">
     <span>Recent highlight</span>
-    <strong>ScaleCUA</strong>
-    <p>Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
+    <strong>Current RA Work</strong>
+    <p>Research assistant work with Prof. Nian Si and Prof. Qifeng Chen across reinforcement learning theory and computer-use agents.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
-    <span><strong>CGA</strong> 3.863 / 4.3</span>
-    <span><strong>Major GPA</strong> 4.014 / 4.3</span>
-    <span><strong>Current</strong> HKUST undergraduate researcher</span>
+    <span><strong>CGA</strong> 3.906 / 4.3</span>
+    <span><strong>Major GPA</strong> 4.028 / 4.3</span>
+    <span><strong>Credits</strong> 69.0 earned</span>
   </div>
 </section>
 
 <section class="profile-block">
   <h2>Profile</h2>
-  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I enjoy connecting mathematical structure with practical research infrastructure, especially in computer-use-agent evaluation.</p>
+  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I am currently a research assistant with Prof. Nian Si and Prof. Qifeng Chen, connecting mathematical structure with practical research infrastructure.</p>
 </section>
 
 <section class="highlight-grid">
   <article class="highlight-card">
     <span class="highlight-label">Research focus</span>
-    <h3>ML, RL, and LLMs</h3>
-    <p>I am interested in learning-based agents, reinforcement learning, and large language models for reliable computer-use systems.</p>
+    <h3>RL, ML, and LLMs</h3>
+    <p>I am interested in reinforcement learning theory, learning-based agents, and large language models for reliable computer-use systems.</p>
   </article>
   <article class="highlight-card">
     <span class="highlight-label">Recent work</span>
-    <h3>Computer-use agents</h3>
-    <p>My contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.</p>
+    <h3>Research assistant work</h3>
+    <p>My current work includes reinforcement learning theory with Prof. Nian Si and computer-use-agent research with Prof. Qifeng Chen.</p>
   </article>
   <article class="highlight-card">
     <span class="highlight-label">Working style</span>
@@ -58,6 +58,8 @@ classes: wide
 
 # 🔥 News
 
+- *2026.07*: Began current RA work with **Prof. Nian Si** on reinforcement learning theory.
+- *2026.07*: Began current RA work with **Prof. Qifeng Chen**, building on prior computer-use-agent research.
 - *2026.05*: Won **Champion** in the 11th HKUST Undergraduate Mathematics Competition, Junior Division.
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.05*: Built [Proof Preview](/project/proof-preview/), an offline LaTeX proof viewer for studying math with Codex.
@@ -70,6 +72,12 @@ classes: wide
 <span class="anchor" id="experience"></span>
 
 # 💼 Experience
+
+- *Jul 2026 - Present* \| **Research Assistant, Reinforcement Learning Theory**, HKUST<br>
+  Supervised by Prof. Nian Si. Working on reinforcement learning theory and decision-making under uncertainty, with a focus on mathematical modeling, literature study, and proof development for ongoing research.
+
+- *Jul 2026 - Present* \| **Research Assistant, Machine Learning / Computer-Use Agents**, HKUST<br>
+  Supervised by Prof. Qifeng Chen. Continuing ML and computer-use-agent research, building on prior ScaleCUA experience.
 
 - *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
@@ -138,7 +146,9 @@ classes: wide
 - **Dean's List**, Fall 2024, HKUST.
 - **Dean's List**, Spring 2025, HKUST.
 - **Dean's List**, Fall 2025, HKUST.
+- **Dean's List**, Spring 2026, HKUST.
 - **HKSAR Government Scholarship Fund - Talent Development Scholarship**, 2024-2025.
+- **University's Scholarship Scheme for Continuing Undergraduate Students**, 2025-2026.
 - **Top 99% National Ranking**, Mathematics, Yau Shing-tung Math Test, Aug 2023.
 - **First Prize**, National High School Mathematics Olympiad (Preliminary), Sep 2022.
 - **Merit Award**, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.
@@ -156,6 +166,7 @@ classes: wide
 
 - **Degree:** B.S. in Computer Science & Mathematics, HKUST.
 - **Expected graduation:** June 2028.
-- **CGA:** 3.863 / 4.3.
-- **Major GPA:** 4.014 / 4.3, calculated from COMP and MATH coursework.
+- **CGA:** 3.906 / 4.3.
+- **Major GPA:** 4.028 / 4.3, calculated from graded COMP and MATH coursework.
+- **Cumulative credits earned:** 69.0.
 - **Languages:** Mandarin Chinese (native), English (proficient).
