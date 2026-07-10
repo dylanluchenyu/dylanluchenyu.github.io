@@ -20,9 +20,9 @@ classes: wide
     </div>
   </div>
   <div class="landing-note">
-    <span>Recent highlight</span>
-    <strong>Current RA Work</strong>
-    <p>Research assistant work with Prof. Nian Si and Prof. Qifeng Chen across reinforcement learning theory and computer-use agents.</p>
+    <span>Research interests</span>
+    <strong>RL, ML, and Data</strong>
+    <p>Interests in reinforcement learning theory, learning-based agents, and data analysis for applied systems.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
     <span><strong>CGA</strong> 3.906 / 4.3</span>
@@ -33,24 +33,24 @@ classes: wide
 
 <section class="profile-block">
   <h2>Profile</h2>
-  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I am currently a research assistant with Prof. Nian Si and Prof. Qifeng Chen, connecting mathematical structure with practical research infrastructure.</p>
+  <p>HKUST Computer Science and Mathematics undergraduate interested in machine learning, reinforcement learning, and large language models. I am currently a research assistant with Prof. Nian Si, doing independent work under Prof. Qifeng Chen, and a part-time intern at the Hong Kong Observatory.</p>
 </section>
 
 <section class="highlight-grid">
   <article class="highlight-card">
-    <span class="highlight-label">Research focus</span>
-    <h3>RL, ML, and LLMs</h3>
-    <p>I am interested in reinforcement learning theory, learning-based agents, and large language models for reliable computer-use systems.</p>
+    <span class="highlight-label">Interest</span>
+    <h3>Reinforcement learning</h3>
+    <p>I am interested in mathematical questions in reinforcement learning and decision-making under uncertainty.</p>
   </article>
   <article class="highlight-card">
-    <span class="highlight-label">Recent work</span>
-    <h3>Research assistant work</h3>
-    <p>My current work includes reinforcement learning theory with Prof. Nian Si and computer-use-agent research with Prof. Qifeng Chen.</p>
+    <span class="highlight-label">Interest</span>
+    <h3>Computer-use agents</h3>
+    <p>I am also interested in data, evaluation, and workflow design for computer-use-agent research.</p>
   </article>
   <article class="highlight-card">
-    <span class="highlight-label">Working style</span>
-    <h3>Math, systems, and execution</h3>
-    <p>I enjoy moving from proof-like structure to careful implementation, especially when research needs reliable tooling.</p>
+    <span class="highlight-label">Interest</span>
+    <h3>Aviation data</h3>
+    <p>Through my internship, I am learning about real-world aviation data analysis and AI applications.</p>
   </article>
 </section>
 
@@ -58,11 +58,11 @@ classes: wide
 
 # 🔥 News
 
-- *2026.07*: Began current RA work with **Prof. Nian Si** on reinforcement learning theory.
-- *2026.07*: Began current RA work with **Prof. Qifeng Chen**, building on prior computer-use-agent research.
+- *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
+- *2026.06*: Began research assistant work with **Prof. Nian Si** on reinforcement learning theory.
+- *2026.06*: Began independent work under **Prof. Qifeng Chen**, building on prior computer-use-agent research.
 - *2026.05*: Won **Champion** in the 11th HKUST Undergraduate Mathematics Competition, Junior Division.
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
-- *2026.05*: Built [Proof Preview](/project/proof-preview/), an offline LaTeX proof viewer for studying math with Codex.
 - *2026.03*: Began undergraduate teaching assistant role for **COMP4900 Graduation Requirements** at HKUST.
 - *2025.09*: Started UROP research on the **Zeto Project**, studying blockchain account models and cryptographic foundations.
 - *2025.09*: Began undergraduate teaching assistant role for **COMP2711 Discrete Mathematics** at HKUST.
@@ -73,10 +73,13 @@ classes: wide
 
 # 💼 Experience
 
-- *Jul 2026 - Present* \| **Research Assistant, Reinforcement Learning Theory**, HKUST<br>
+- *Jun 2026 - Present* \| **Part-time Intern**, Hong Kong Observatory<br>
+  Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects, including real-world aviation data analysis and AI applications.
+
+- *Jun 2026 - Present* \| **Research Assistant, Reinforcement Learning Theory**, HKUST<br>
   Supervised by Prof. Nian Si. Working on reinforcement learning theory and decision-making under uncertainty, with a focus on mathematical modeling, literature study, and proof development for ongoing research.
 
-- *Jul 2026 - Present* \| **Research Assistant, Machine Learning / Computer-Use Agents**, HKUST<br>
+- *Jun 2026 - Present* \| **Independent Work, Machine Learning / Computer-Use Agents**, HKUST<br>
   Supervised by Prof. Qifeng Chen. Continuing ML and computer-use-agent research, building on prior ScaleCUA experience.
 
 - *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
@@ -116,24 +119,36 @@ classes: wide
 <div class="paper-box">
   <div class="paper-box-text">
     <p class="paper-links">
-      <a class="paper-link-github" href="https://github.com/OpenGVLab/ScaleCUA" target="_blank" rel="noopener">GitHub</a>
-      <a class="paper-link-details" href="/project/scalecua-contribution/">Details</a>
+      <a class="paper-link-github" href="https://github.com/dylanluchenyu/HKO-Flight-Weather-Dashboard" target="_blank" rel="noopener">GitHub</a>
+      <a class="paper-link-details" href="/project/hko-flight-weather-dashboard/">Details</a>
     </p>
-    <p class="paper-title"><a href="/project/scalecua-contribution/">OpenGVLab / ScaleCUA Contribution</a></p>
-    <p class="paper-meta"><strong>GUI-agent research infrastructure</strong></p>
-    <p class="paper-extra">Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
+    <p class="paper-title"><a href="/project/hko-flight-weather-dashboard/">HKO Flight Weather Dashboard</a></p>
+    <p class="paper-meta"><strong>Aviation weather data dashboard</strong></p>
+    <p class="paper-extra">A dashboard for HKIA flight situational awareness using public flight, METAR, and TAF data.</p>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-text">
     <p class="paper-links">
-      <a class="paper-link-github" href="https://github.com/dylanluchenyu/proof-preview" target="_blank" rel="noopener">GitHub</a>
-      <a class="paper-link-details" href="/project/proof-preview/">Details</a>
+      <a class="paper-link-github" href="https://github.com/dylanluchenyu/codex-completion-sound" target="_blank" rel="noopener">GitHub</a>
+      <a class="paper-link-details" href="/project/codex-completion-sound/">Details</a>
     </p>
-    <p class="paper-title"><a href="/project/proof-preview/">Proof Preview</a></p>
-    <p class="paper-meta"><strong>Offline LaTeX proof viewer</strong></p>
-    <p class="paper-extra">A local HTML viewer with bundled KaTeX and a command-line helper for previewing math proofs written with Codex.</p>
+    <p class="paper-title"><a href="/project/codex-completion-sound/">Codex Completion Sound</a></p>
+    <p class="paper-meta"><strong>Personal Codex utility</strong></p>
+    <p class="paper-extra">A small Codex skill that plays a completion sound when a Codex task finishes.</p>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-links">
+      <a class="paper-link-github" href="https://github.com/OpenGVLab/ScaleCUA" target="_blank" rel="noopener">GitHub</a>
+      <a class="paper-link-details" href="/project/scalecua-contribution/">Details</a>
+    </p>
+    <p class="paper-title"><a href="/project/scalecua-contribution/">OpenGVLab / ScaleCUA Contribution</a></p>
+    <p class="paper-meta"><strong>GUI-agent research infrastructure</strong></p>
+    <p class="paper-extra">Contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
   </div>
 </div>
 

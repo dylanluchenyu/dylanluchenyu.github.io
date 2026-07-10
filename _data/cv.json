@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning theory, and LLMs. Current research assistant work includes reinforcement learning theory and computer-use-agent research.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in machine learning, reinforcement learning theory, and LLMs. Current work includes research assistant work in reinforcement learning theory, independent work in computer-use agents, and a part-time internship at the Hong Kong Observatory.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -18,7 +18,17 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Part-time Intern",
+      "company": "Hong Kong Observatory",
+      "startDate": "2026-06",
+      "summary": "Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects.",
+      "highlights": [
+        "Supporting real-world aviation data analysis, AI application, and related problem exploration"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
@@ -135,18 +145,25 @@
   ],
   "portfolio": [
     {
+      "name": "HKO Flight Weather Dashboard",
+      "category": "Aviation weather data dashboard",
+      "date": "2026-06-29",
+      "url": "https://github.com/dylanluchenyu/HKO-Flight-Weather-Dashboard",
+      "description": "Dashboard for HKIA flight situational awareness using public flight, METAR, and TAF data."
+    },
+    {
+      "name": "Codex Completion Sound",
+      "category": "Personal Codex utility",
+      "date": "2026-07-09",
+      "url": "https://github.com/dylanluchenyu/codex-completion-sound",
+      "description": "Small Codex skill that plays a completion sound when a Codex task finishes."
+    },
+    {
       "name": "OpenGVLab/ScaleCUA Contribution",
       "category": "Open-source research project",
       "date": "2025-08-01",
       "url": "https://github.com/OpenGVLab/ScaleCUA",
       "description": "Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase."
-    },
-    {
-      "name": "Proof Preview",
-      "category": "Offline LaTeX proof viewer",
-      "date": "2026-05-07",
-      "url": "https://github.com/dylanluchenyu/proof-preview",
-      "description": "Local HTML viewer with bundled KaTeX and a command-line helper for previewing math proofs written with Codex."
     }
   ],
   "awards": [
@@ -211,7 +228,7 @@
     {
       "title": "Research Assistant, Reinforcement Learning Theory",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
-      "startDate": "2026-07",
+      "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Nian Si"
@@ -219,9 +236,9 @@
       "description": "Working on reinforcement learning theory and decision-making under uncertainty, supporting ongoing research through mathematical modeling, literature study, and proof development."
     },
     {
-      "title": "Research Assistant, Machine Learning / Computer-Use Agents",
+      "title": "Independent Work, Machine Learning / Computer-Use Agents",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
-      "startDate": "2026-07",
+      "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Qifeng Chen"

@@ -25,14 +25,20 @@ Education
 
 * Exchange Student, HKUST Summer Study Abroad, Tallinn University, Jul 2026
 
+Internship Experience
+======
+* Part-time Intern, Hong Kong Observatory, Jun 2026 - Present
+  * Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects
+  * Supporting real-world aviation data analysis, AI application, and related problem exploration
+
 Research Experience
 ======
-* Research Assistant, Reinforcement Learning Theory, HKUST, Jul 2026 - Present
+* Research Assistant, Reinforcement Learning Theory, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Nian Si
   * Working on reinforcement learning theory and decision-making under uncertainty
   * Supporting ongoing research through mathematical modeling, literature study, and proof development
 
-* Research Assistant, Machine Learning / Computer-Use Agents, HKUST, Jul 2026 - Present
+* Independent Work, Machine Learning / Computer-Use Agents, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Qifeng Chen
   * Continuing ML and computer-use-agent research, building on prior ScaleCUA experience
   * Connecting large-scale data preparation, evaluation workflows, and reliable agent research infrastructure
@@ -55,6 +61,16 @@ Publications
   "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data"<br>
   Zhaoyang Liu, Jingjing Xie, ..., **Chenyu Lu**, Yunxiang Mo, ..., Wenhai Wang.<br>
   Contribution: data pipeline and cross-platform workflow components in the open-source codebase.
+
+Projects
+======
+* HKO Flight Weather Dashboard. [GitHub](https://github.com/dylanluchenyu/HKO-Flight-Weather-Dashboard)
+  * Dashboard for HKIA flight situational awareness using public flight, METAR, and TAF data
+  * Supports arrival/departure summaries, time horizons, and aviation weather status views
+
+* Codex Completion Sound. [GitHub](https://github.com/dylanluchenyu/codex-completion-sound)
+  * Small Codex skill that plays a completion sound when a Codex task finishes
+  * Preserves existing Codex notification hooks while adding a lightweight audio alert
 
 Teaching Experience
 ======
