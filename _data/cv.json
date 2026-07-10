@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science & Mathematics student at HKUST with research interests in statistical machine learning and learning theory. Current work includes research assistant work in average reward reinforcement learning, independent work on web fetch agents, and a part-time internship at the Hong Kong Observatory.",
+    "summary": "Computer Science & Mathematics student at HKUST with research interests in statistical machine learning and learning theory. Current work includes research assistant work with Prof. Nian Si, independent benchmark work on large language models' web-fetch ability, and a part-time internship at the Hong Kong Observatory.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -224,24 +224,24 @@
   ],
   "research": [
     {
-      "title": "Research Assistant, Average Reward Reinforcement Learning",
+      "title": "Research Assistant, Reinforcement Learning and Learning Theory",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
       "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Nian Si"
       ],
-      "description": "Working on average reward reinforcement learning, supporting ongoing research through mathematical modeling, literature study, and proof development."
+      "description": "Reading papers, developing research ideas, and drafting manuscripts for ongoing research."
     },
     {
-      "title": "Independent Work, Web Fetch Agents",
+      "title": "Independent Work, Web-Fetch Benchmark",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
       "startDate": "2026-06",
       "endDate": "Present",
       "supervisors": [
         "Prof. Qifeng Chen"
       ],
-      "description": "Working on web fetch agents, building on prior ScaleCUA experience in data preparation, evaluation workflows, and agent workflows."
+      "description": "Building a benchmark for evaluating the web-fetch ability of GPT and other large language models, including task design, data construction, evaluation workflow, and analysis."
     },
     {
       "title": "UROP Research Assistant, Zeto Project",

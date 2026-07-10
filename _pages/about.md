@@ -40,8 +40,8 @@ classes: wide
 # 🔥 News
 
 - *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
-- *2026.06*: Began research assistant work with **Prof. Nian Si** on average reward reinforcement learning.
-- *2026.06*: Began independent work under **Prof. Qifeng Chen** on web fetch agents.
+- *2026.06*: Began research assistant work with **Prof. Nian Si**, focusing on literature reading, research development, and manuscript writing.
+- *2026.06*: Began independent work under **Prof. Qifeng Chen**, building a benchmark for evaluating the web-fetch ability of GPT and other large language models.
 - *2026.05*: Won **Champion** in the 11th HKUST Undergraduate Mathematics Competition, Junior Division.
 - *2026.01*: **ScaleCUA** was accepted to **ICLR 2026** as an **Oral** paper. [arXiv](https://arxiv.org/abs/2509.15221)
 - *2026.03*: Began undergraduate teaching assistant role for **COMP4900 Graduation Requirements** at HKUST.
@@ -57,11 +57,11 @@ classes: wide
 - *Jun 2026 - Present* \| **Part-time Intern**, Hong Kong Observatory<br>
   Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects, including real-world aviation data analysis and AI applications.
 
-- *Jun 2026 - Present* \| **Research Assistant, Average Reward Reinforcement Learning**, HKUST<br>
-  Supervised by Prof. Nian Si. Working on average reward reinforcement learning, with a focus on mathematical modeling, literature study, and proof development for ongoing research.
+- *Jun 2026 - Present* \| **Research Assistant, Reinforcement Learning and Learning Theory**, HKUST<br>
+  Supervised by Prof. Nian Si. Reading papers, developing research ideas, and drafting manuscripts for ongoing research.
 
-- *Jun 2026 - Present* \| **Independent Work, Web Fetch Agents**, HKUST<br>
-  Supervised by Prof. Qifeng Chen. Working on web fetch agents, building on prior ScaleCUA experience in data, evaluation, and agent workflows.
+- *Jun 2026 - Present* \| **Independent Work, Web-Fetch Benchmark**, HKUST<br>
+  Supervised by Prof. Qifeng Chen. Building a benchmark for evaluating the web-fetch ability of GPT and other large language models.
 
 - *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.

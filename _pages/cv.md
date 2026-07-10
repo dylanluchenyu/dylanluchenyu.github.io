@@ -30,15 +30,14 @@ Internship Experience
 
 Research Experience
 ======
-* Research Assistant, Average Reward Reinforcement Learning, HKUST, Jun 2026 - Present
+* Research Assistant, Reinforcement Learning and Learning Theory, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Nian Si
-  * Working on average reward reinforcement learning
-  * Supporting ongoing research through mathematical modeling, literature study, and proof development
+  * Reading papers, developing research ideas, and drafting manuscripts for ongoing research
 
-* Independent Work, Web Fetch Agents, HKUST, Jun 2026 - Present
+* Independent Work, Web-Fetch Benchmark, HKUST, Jun 2026 - Present
   * Supervisor: Prof. Qifeng Chen
-  * Working on web fetch agents, building on prior ScaleCUA experience
-  * Connecting data preparation, evaluation workflows, and agent workflows
+  * Building a benchmark for evaluating the web-fetch ability of GPT and other large language models
+  * Working on task design, data construction, evaluation workflow, and analysis
 
 * UROP Research Assistant, Zeto Project, HKUST, Sep 2025 - Dec 2025
   * Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
