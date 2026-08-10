@@ -107,5 +107,6 @@ Teaching
 
 Extracurricular
 ======
+* Completed Level 1 & 2 Certificate Course in Dinghy Sailing (DS061), HKUST Water Sports Center, Jul 2026
 * Active participant in mathematics competitions and academic challenges
 * Open-source contributor and research project collaborator

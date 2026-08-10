@@ -259,6 +259,31 @@
   </div>
   {% endif %}
   
+  {% if cv.activities.size > 0 %}
+  <!-- Activities -->
+  <div class="cv-section">
+    <h2>Activities</h2>
+    <ul class="cv-list">
+      {% for activity in cv.activities %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ activity.name }}</div>
+          <div class="cv-item-date">{{ activity.date | date: "%Y.%m" }}</div>
+        </div>
+        <div class="cv-item-content">
+          {% if activity.institution %}
+          <div class="cv-item-subtitle">{{ activity.institution }}</div>
+          {% endif %}
+          {% if activity.description %}
+          <div class="cv-item-detail">{{ activity.description }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.portfolio.size > 0 %}
   <!-- Portfolio -->
   <div class="cv-section">

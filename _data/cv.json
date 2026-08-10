@@ -141,6 +141,14 @@
       "description": "Helped students navigate graduation requirements and supported seminar registration checks."
     }
   ],
+  "activities": [
+    {
+      "name": "Level 1 & 2 Certificate Course in Dinghy Sailing (DS061)",
+      "institution": "HKUST Water Sports Center",
+      "date": "2026-07",
+      "description": "Completed a three-day dinghy sailing certificate course."
+    }
+  ],
   "portfolio": [
     {
       "name": "HKO Flight Weather Dashboard",
