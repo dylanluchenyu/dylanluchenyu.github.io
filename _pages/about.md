@@ -10,29 +10,10 @@ classes: wide
 
 <span class="anchor" id="about"></span>
 
-<section class="landing-hero">
-  <div class="landing-copy">
-    <p class="landing-eyebrow">Computer Science & Mathematics at HKUST</p>
-    <div class="landing-links">
-      <a class="btn btn--primary" href="/files/CV.pdf">CV</a>
-      <a class="btn btn--inverse" href="#publications">Publications</a>
-      <a class="btn btn--light-outline" href="#projects">Projects</a>
-    </div>
-  </div>
-  <div class="landing-note">
-    <span>Research interests</span>
-    <strong>Statistical ML and Learning Theory</strong>
-    <p>Interests in statistical machine learning, learning theory, and reinforcement learning.</p>
-  </div>
-  <div class="landing-stats" aria-label="Profile summary">
-    <span><strong>CGA</strong> 3.930 / 4.3</span>
-    <span><strong>Major GPA</strong> 4.048 / 4.3</span>
-  </div>
-</section>
-
-<section class="profile-block">
-  <h2>Profile</h2>
-  <p>HKUST Computer Science and Mathematics undergraduate interested in statistical machine learning and learning theory. I am currently a research assistant with Prof. Nian Si, doing independent work under Prof. Qifeng Chen, and a part-time intern at the Hong Kong Observatory.</p>
+<section class="about-summary">
+  <h2>About</h2>
+  <p>I am an undergraduate at the Hong Kong University of Science and Technology, majoring in Computer Science and Mathematics. My academic interests lie in statistical machine learning, learning theory, and reinforcement learning.</p>
+  <p>I am currently a research assistant with Prof. Nian Si, where I read papers, develop research ideas, and write manuscripts on reinforcement learning theory. I also do independent work under Prof. Qifeng Chen on a benchmark for evaluating the web-fetch abilities of large language model agents. I am a part-time intern at the Hong Kong Observatory, working on aviation-related data and AI applications.</p>
 </section>
 
 <span class="anchor" id="news"></span>
