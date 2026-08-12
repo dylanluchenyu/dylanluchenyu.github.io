@@ -25,8 +25,8 @@ classes: wide
     <p>Interests in statistical machine learning, learning theory, and reinforcement learning.</p>
   </div>
   <div class="landing-stats" aria-label="Profile summary">
-    <span><strong>CGA</strong> 3.906 / 4.3</span>
-    <span><strong>Major GPA</strong> 4.028 / 4.3</span>
+    <span><strong>CGA</strong> 3.930 / 4.3</span>
+    <span><strong>Major GPA</strong> 4.048 / 4.3</span>
   </div>
 </section>
 
@@ -162,6 +162,6 @@ classes: wide
 
 - **Degree:** B.S. in Computer Science & Mathematics, HKUST.
 - **Expected graduation:** June 2028.
-- **CGA:** 3.906 / 4.3.
-- **Major GPA:** 4.028 / 4.3, calculated from graded COMP and MATH coursework.
+- **CGA:** 3.930 / 4.3.
+- **Major GPA:** 4.048 / 4.3, calculated from graded COMP and MATH coursework.
 - **Languages:** Mandarin Chinese (native), English (proficient).

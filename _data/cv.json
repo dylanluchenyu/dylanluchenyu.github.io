@@ -36,8 +36,8 @@
       "studyType": "Undergraduate",
       "startDate": "2024-09",
       "endDate": "2028-06",
-      "gpa": "3.906 / 4.3",
-      "majorGpa": "4.028 / 4.3",
+      "gpa": "3.930 / 4.3",
+      "majorGpa": "4.048 / 4.3",
       "courses": [
         "Data Structures",
         "Computer Organization",
@@ -48,7 +48,8 @@
         "Multivariable Calculus",
         "Mathematical Analysis",
         "Game Theory",
-        "Topology"
+        "Topology",
+        "Independent Work (COMP4971D)"
       ],
       "notes": [
         "Student Member, The Hong Kong Institution of Engineers (2026-2027)"
