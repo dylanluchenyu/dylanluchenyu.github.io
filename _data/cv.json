@@ -127,12 +127,12 @@
   ],
   "teaching": [
     {
-      "course": "COMP2711 Discrete Mathematics",
+      "course": "COMP4900 Graduation Requirements",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
-      "date": "2025-09-01",
-      "endDate": "2025-12-01",
+      "date": "2026-09-01",
+      "endDate": "2026-12-01",
       "role": "Undergraduate Teaching Assistant",
-      "description": "Provided academic guidance on core discrete mathematics concepts and assisted with course support."
+      "description": "Helping students understand graduation requirements and assisting with seminar registration checks and course administration."
     },
     {
       "course": "COMP4900 Graduation Requirements",
@@ -140,6 +140,14 @@
       "date": "2026-03-01",
       "role": "Undergraduate Teaching Assistant",
       "description": "Helped students navigate graduation requirements and supported seminar registration checks."
+    },
+    {
+      "course": "COMP2711 Discrete Mathematics",
+      "institution": "The Hong Kong University of Science and Technology (HKUST)",
+      "date": "2025-09-01",
+      "endDate": "2025-12-01",
+      "role": "Undergraduate Teaching Assistant",
+      "description": "Provided academic guidance on core discrete mathematics concepts and assisted with course support."
     }
   ],
   "activities": [

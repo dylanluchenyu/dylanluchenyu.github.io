@@ -20,6 +20,7 @@ classes: wide
 
 # 🔥 News
 
+- *2026.08*: Selected as undergraduate teaching assistant for **COMP4900 Graduation Requirements** at HKUST for Fall 2026.
 - *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
 - *2026.06*: Began research assistant work with **Prof. Nian Si**, focusing on literature reading, research development, and manuscript writing.
 - *2026.06*: Began independent work under **Prof. Qifeng Chen**, building a benchmark for evaluating the web-fetch ability of GPT and other large language models.
@@ -43,6 +44,9 @@ classes: wide
 
 - *Jun 2026 - Present* \| **Independent Work, Web-Fetch Benchmark**, HKUST<br>
   Supervised by Prof. Qifeng Chen. Building a benchmark for evaluating the web-fetch ability of GPT and other large language models.
+
+- *Sep 2026 - Dec 2026* \| **Undergraduate Teaching Assistant**, HKUST<br>
+  Will support `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
 
 - *2026.03* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
@@ -134,8 +138,9 @@ classes: wide
 
 # 🎓 Teaching
 
+- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, Sep 2026 - Dec 2026.
+- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, Spring 2026.
 - **Teaching Assistant**, `COMP2711 Discrete Mathematics`, HKUST, Fall 2025.
-- **Teaching Assistant**, `COMP4900 Graduation Requirements`, HKUST, Spring, 2026.
 
 <span class="anchor" id="snapshot"></span>
 

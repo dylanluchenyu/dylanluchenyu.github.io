@@ -70,13 +70,17 @@ Projects
 
 Teaching Experience
 ======
-* Undergraduate Teaching Assistant, COMP2711 Discrete Mathematics, HKUST, Sep 2025 - Dec 2025
-  * Provided academic guidance on core discrete mathematics concepts
-  * Assisted with assignment arrangement and course support
+* Undergraduate Teaching Assistant, COMP4900 Graduation Requirements, HKUST, Sep 2026 - Dec 2026
+  * Helping students understand graduation requirements
+  * Assisting with seminar registration checks and course administration
 
 * Undergraduate Teaching Assistant, COMP4900 Graduation Requirements, HKUST, 2026.03
   * Helped students understand graduation requirements
   * Assisted with seminar registration checks and course administration
+
+* Undergraduate Teaching Assistant, COMP2711 Discrete Mathematics, HKUST, Sep 2025 - Dec 2025
+  * Provided academic guidance on core discrete mathematics concepts
+  * Assisted with assignment arrangement and course support
 
 Awards and Honors
 ======
