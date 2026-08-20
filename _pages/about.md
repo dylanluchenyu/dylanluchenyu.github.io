@@ -36,28 +36,28 @@ classes: wide
 
 # 💼 Experience
 
-- *Jun 2026 - Present \| Part-time Intern, Hong Kong Observatory*<br>
+- *Jun 2026 - Present* \| **Part-time Intern**, Hong Kong Observatory<br>
   Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects, including real-world aviation data analysis and AI applications.
 
-- *Jun 2026 - Present \| Research Assistant, Reinforcement Learning and Learning Theory, HKUST*<br>
+- *Jun 2026 - Present* \| **Research Assistant, Reinforcement Learning and Learning Theory**, HKUST<br>
   Supervised by Prof. Nian Si. Reading papers, developing research ideas, and drafting manuscripts for ongoing research.
 
-- *Jun 2026 - Aug 2026 \| Independent Work, Web-Fetch Benchmark, HKUST*<br>
+- *Jun 2026 - Aug 2026* \| **Independent Work, Web-Fetch Benchmark**, HKUST<br>
   Supervised by Prof. Qifeng Chen. Built a benchmark for evaluating the web-fetch ability of GPT and other large language models.
 
-- *Sep 2026 - Dec 2026 \| Undergraduate Teaching Assistant, HKUST*<br>
+- *Sep 2026 - Dec 2026* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Will support `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
 
-- *Feb 2026 - May 2026 \| Undergraduate Teaching Assistant, HKUST*<br>
+- *Feb 2026 - May 2026* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP4900 Graduation Requirements`, helping students understand degree requirements, seminar registration checks, and course logistics.
 
-- *Sep 2025 - Dec 2025 \| UROP Research Assistant, Zeto Project, HKUST*<br>
+- *Sep 2025 - Dec 2025* \| **UROP Research Assistant, Zeto Project**, HKUST<br>
   Supervised by Prof. Dimitris Papadopoulos and Dr. Jiajun Xin. Conducted comparative analysis of UTXO and account-based models, studied cryptographic foundations for protocol validation, and supported project documentation and coordination.
 
-- *Jun 2025 - Aug 2025 \| UROP Research Assistant, GUI Agent Project, HKUST*<br>
+- *Jun 2025 - Aug 2025* \| **UROP Research Assistant, GUI Agent Project**, HKUST<br>
   Supervised by Prof. Qifeng Chen and Dr. Zhaoyang Liu. Co-authored a computer-use-agent preprint. Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
 
-- *Sep 2025 - Dec 2025 \| Undergraduate Teaching Assistant, HKUST*<br>
+- *Sep 2025 - Dec 2025* \| **Undergraduate Teaching Assistant**, HKUST<br>
   Supported `COMP2711 Discrete Mathematics`, helping students with core discrete mathematics concepts and course logistics.
 
 <span class="anchor" id="publications"></span>
