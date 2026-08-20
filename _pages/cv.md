@@ -34,10 +34,10 @@ Research Experience
   * Supervisor: Prof. Nian Si
   * Reading papers, developing research ideas, and drafting manuscripts for ongoing research
 
-* Independent Work, Web-Fetch Benchmark, HKUST, Jun 2026 - Present
+* Independent Work, Web-Fetch Benchmark, HKUST, Jun 2026 - Aug 2026
   * Supervisor: Prof. Qifeng Chen
-  * Building a benchmark for evaluating the web-fetch ability of GPT and other large language models
-  * Working on task design, data construction, evaluation workflow, and analysis
+  * Built a benchmark for evaluating the web-fetch ability of GPT and other large language models
+  * Worked on task design, data construction, evaluation workflow, and analysis
 
 * UROP Research Assistant, Zeto Project, HKUST, Sep 2025 - Dec 2025
   * Supervisors: Prof. Dimitris Papadopoulos, Dr. Jiajun Xin
@@ -74,7 +74,7 @@ Teaching Experience
   * Helping students understand graduation requirements
   * Assisting with seminar registration checks and course administration
 
-* Undergraduate Teaching Assistant, COMP4900 Graduation Requirements, HKUST, 2026.03
+* Undergraduate Teaching Assistant, COMP4900 Graduation Requirements, HKUST, Feb 2026 - May 2026
   * Helped students understand graduation requirements
   * Assisted with seminar registration checks and course administration
 
@@ -86,10 +86,10 @@ Awards and Honors
 ======
 * Champion, 11th HKUST Undergraduate Mathematics Competition (Junior Division), May 2026
 * Champion, 10th HKUST Undergraduate Mathematics Competition (Junior Division), Apr 2025
-* Dean's List (Full-Time), Fall 2024, HKUST
-* Dean's List (Full-Time), Spring 2025, HKUST
-* Dean's List (Full-Time), Fall 2025, HKUST
-* Dean's List (Full-Time), Spring 2026, HKUST
+* Dean's List (Full-Time), 2024-2025 Fall, HKUST
+* Dean's List (Full-Time), 2024-2025 Spring, HKUST
+* Dean's List (Full-Time), 2025-2026 Fall, HKUST
+* Dean's List (Full-Time), 2025-2026 Spring, HKUST
 * HKSAR Government Scholarship Fund - Talent Development Scholarship, 2024 - 2025
 * University's Scholarship Scheme for Continuing Undergraduate Students, 2025 - 2026
 * First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society, Sep 2022

@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science and Mathematics undergraduate at HKUST with academic interests in statistical machine learning, learning theory, and reinforcement learning. Current work includes research with Prof. Nian Si, independent benchmark work on LLM agents with Prof. Qifeng Chen, and a part-time internship at the Hong Kong Observatory.",
+    "summary": "Computer Science and Mathematics undergraduate at HKUST with academic interests in statistical machine learning, learning theory, and reinforcement learning. Current work includes research with Prof. Nian Si and a part-time internship at the Hong Kong Observatory; recent independent work with Prof. Qifeng Chen focused on benchmarking LLM agents' web-fetch abilities.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -137,7 +137,8 @@
     {
       "course": "COMP4900 Graduation Requirements",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
-      "date": "2026-03-01",
+      "date": "2026-02-01",
+      "endDate": "2026-05-01",
       "role": "Undergraduate Teaching Assistant",
       "description": "Helped students navigate graduation requirements and supported seminar registration checks."
     },
@@ -195,22 +196,22 @@
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2024 Fall"
+      "date": "2024-2025 Fall"
     },
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2025 Spring"
+      "date": "2024-2025 Spring"
     },
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2025 Fall"
+      "date": "2025-2026 Fall"
     },
     {
       "title": "Dean's List",
       "awarder": "The Hong Kong University of Science and Technology",
-      "date": "2026 Spring"
+      "date": "2025-2026 Spring"
     },
     {
       "title": "HKSAR Government Scholarship Fund - Talent Development Scholarship",
@@ -254,11 +255,11 @@
       "title": "Independent Work, Web-Fetch Benchmark",
       "institution": "The Hong Kong University of Science and Technology (HKUST)",
       "startDate": "2026-06",
-      "endDate": "Present",
+      "endDate": "2026-08",
       "supervisors": [
         "Prof. Qifeng Chen"
       ],
-      "description": "Building a benchmark for evaluating the web-fetch ability of GPT and other large language models, including task design, data construction, evaluation workflow, and analysis."
+      "description": "Built a benchmark for evaluating the web-fetch ability of GPT and other large language models, including task design, data construction, evaluation workflow, and analysis."
     },
     {
       "title": "UROP Research Assistant, Zeto Project",
