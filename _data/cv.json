@@ -110,7 +110,7 @@
   "publications": [
     {
       "name": "Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication",
-      "publisher": "arXiv preprint; submitted to ICLR 2027",
+      "publisher": "arXiv preprint; under review at ICLR 2027",
       "releaseDate": "2026-09-26",
       "website": "https://arxiv.org/abs/2609.32727",
       "summary": "Chenyu Lu, Zijun Chen, and Nian Si."
