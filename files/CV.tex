@@ -19,22 +19,24 @@
 \renewcommand{\arraystretch}{1.0}
 
 \newlength{\datecol}
-\setlength{\datecol}{1.15in}
+\setlength{\datecol}{1.20in}
+\newlength{\dategap}
+\setlength{\dategap}{0.16in}
 \newlength{\bodycol}
-\setlength{\bodycol}{\dimexpr\textwidth-\datecol-0.22in\relax}
+\setlength{\bodycol}{\dimexpr\textwidth-\datecol-\dategap\relax}
 
 \newcommand{\cvsection}[1]{%
-  \vspace{0.52em}
-  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
-    & {\large\bfseries #1}\\[-0.22em]
-    & {\color{hkustblue}\rule{\bodycol}{0.45pt}}
-  \end{tabular}\par\vspace{0.2em}
+  \par\Needspace{3\baselineskip}\vspace{0.5em}%
+  {\noindent\large\bfseries #1\par}%
+  \vspace{0.35em}{\color{hkustblue}\hrule height 0.45pt}%
+  \vspace{0.25em}%
 }
 
 \newcommand{\cventry}[4]{%
-  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash\color{muted}\footnotesize}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
     #1 &
     \begin{minipage}[t]{\bodycol}
+    \raggedright
     \textbf{#2}#3%
     \if\relax\detokenize{#4}\relax\else\par\emph{#4}\fi
     \end{minipage}
@@ -42,18 +44,28 @@
 }
 
 \newcommand{\cvline}[2]{%
-  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
-    #1 & \begin{minipage}[t]{\bodycol}#2\end{minipage}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash\color{muted}\footnotesize}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
+    #1 & \begin{minipage}[t]{\bodycol}\raggedright #2\end{minipage}
   \end{tabular}\par
 }
 
+\newcommand{\cvshort}[2]{%
+  \noindent\makebox[\datecol][l]{{\color{muted}\footnotesize #1}}%
+  \hspace{\dategap}\parbox[t]{\bodycol}{\raggedright #2}\par
+}
+
+\newcommand{\cvfull}[1]{%
+  \noindent{\raggedright #1\par}%
+}
+
 \newenvironment{cvitems}{%
-  \begin{tabular}{@{}>{\raggedleft\arraybackslash\small}p{\datecol}@{\hspace{0.22in}}>{\arraybackslash}p{\bodycol}@{}}
+  \begin{tabular}{@{}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
   &
   \begin{minipage}[t]{\bodycol}
+  \raggedright
   \begin{itemize}
-  \setlength{\itemsep}{0.02em}
-  \setlength{\topsep}{0.04em}
+  \setlength{\itemsep}{0.12em}
+  \setlength{\topsep}{0.12em}
   \setlength{\parsep}{0pt}
   \setlength{\leftmargin}{1.15em}
 }{%
@@ -62,11 +74,11 @@
   \end{tabular}\par
 }
 
-\newcommand{\entrysep}{\vspace{0.16em}}
+\newcommand{\entrysep}{\vspace{0.3em}}
 
 \begin{document}
 \color{textgray}
-\fontsize{8.8pt}{10.2pt}\selectfont
+\fontsize{9.2pt}{11.5pt}\selectfont
 
 \begin{tabular}{@{}>{\arraybackslash}p{0.52\textwidth}@{\hfill}>{\raggedleft\arraybackslash}p{0.42\textwidth}@{}}
   {\LARGE\bfseries Chenyu Lu} &
@@ -80,7 +92,7 @@
 \end{tabular}
 
 \cvsection{Profile}
-\cvline{}{Computer Science and Mathematics undergraduate at HKUST. Research interests in statistical machine learning and learning theory. Currently conducting research in reinforcement learning theory under the supervision of Prof. Nian Si.}
+\cvfull{Computer Science and Mathematics undergraduate at HKUST. Research interests in statistical machine learning and learning theory. Currently conducting research in reinforcement learning theory under the supervision of Prof. Nian Si.}
 
 \cvsection{Education}
 \cventry{Sep 2024 -- Jun 2028}{Bachelor of Science in Computer Science \& Mathematics}{, Hong Kong University of Science and Technology}{Hong Kong}
@@ -178,22 +190,22 @@ Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wa
 \end{cvitems}
 
 \cvsection{Awards and Honors}
-\cvline{May 2026}{Champion, 11th HKUST Undergraduate Mathematics Competition, Junior Division.}
-\cvline{Apr 2025}{Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division.}
-\cvline{2024-2025 Fall}{Dean's List, HKUST.}
-\cvline{2024-2025 Spring}{Dean's List, HKUST.}
-\cvline{2025-2026 Fall}{Dean's List, HKUST.}
-\cvline{2025-2026 Spring}{Dean's List, HKUST.}
-\cvline{2024--2025}{HKSAR Government Scholarship Fund - Talent Development Scholarship.}
-\cvline{2025--2026}{University's Scholarship Scheme for Continuing Undergraduate Students.}
-\cvline{Sep 2022}{First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society.}
-\cvline{}{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.}
-\cvline{Aug 2023}{Top 99\% National Ranking, Yau Shing-tung Math Test.}
+\cvshort{May 2026}{Champion, 11th HKUST Undergraduate Mathematics Competition, Junior Division.}
+\cvshort{Apr 2025}{Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division.}
+\cvshort{2024-2025 Fall}{Dean's List, HKUST.}
+\cvshort{2024-2025 Spring}{Dean's List, HKUST.}
+\cvshort{2025-2026 Fall}{Dean's List, HKUST.}
+\cvshort{2025-2026 Spring}{Dean's List, HKUST.}
+\cvshort{2024--2025}{HKSAR Government Scholarship Fund - Talent Development Scholarship.}
+\cvshort{2025--2026}{University's Scholarship Scheme for Continuing Undergraduate Students.}
+\cvshort{Sep 2022}{First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society.}
+\cvshort{}{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.}
+\cvshort{Aug 2023}{Top 99\% National Ranking, Yau Shing-tung Math Test.}
 
 \cvsection{Skills}
-\cvline{}{Programming: Python, C/C++, JavaScript.}
-\cvline{}{Research areas: Statistical machine learning, learning theory, reinforcement learning.}
-\cvline{}{Languages: Mandarin Chinese (native), English (proficient).}
+\cvfull{Programming: Python, C/C++, JavaScript.}
+\cvfull{Research areas: Statistical machine learning, learning theory, reinforcement learning.}
+\cvfull{Languages: Mandarin Chinese (native), English (proficient).}
 
 \cvsection{Extracurricular Activities}
 \cvline{Jul 2026}{Completed Level 1 \& 2 Certificate Course in Dinghy Sailing (DS061), HKUST Water Sports Center.}
