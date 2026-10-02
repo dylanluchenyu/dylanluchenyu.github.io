@@ -1,213 +1,145 @@
-\documentclass[10pt,a4paper]{article}
-
-\usepackage[margin=0.58in]{geometry}
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1.3cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
-\usepackage{array}
+\usepackage{enumitem}
+\usepackage{tabularx}
 \usepackage{needspace}
-\usepackage[colorlinks=true,urlcolor=hkustblue,linkcolor=hkustblue]{hyperref}
 
-\definecolor{hkustblue}{HTML}{003C71}
-\definecolor{textgray}{HTML}{2B2F33}
-\definecolor{muted}{HTML}{5A626A}
-
-\pagestyle{empty}
+\definecolor{cvblue}{RGB}{0,60,113}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\setlength{\tabcolsep}{0pt}
-\renewcommand{\arraystretch}{1.0}
-
-\newlength{\datecol}
-\setlength{\datecol}{1.20in}
-\newlength{\dategap}
-\setlength{\dategap}{0.16in}
-\newlength{\bodycol}
-\setlength{\bodycol}{\dimexpr\textwidth-\datecol-\dategap\relax}
+\pagestyle{empty}
 
 \newcommand{\cvsection}[1]{%
-  \par\Needspace{3\baselineskip}\vspace{0.5em}%
-  {\noindent\large\bfseries #1\par}%
-  \vspace{0.35em}{\color{hkustblue}\hrule height 0.45pt}%
-  \vspace{0.25em}%
+  \par\Needspace{3\baselineskip}\vspace{4pt}%
+  {\color{cvblue}\textbf{\normalsize #1}}%
+  \par\vspace{2pt}%
+  {\color{cvblue}\hrule height 1pt}%
+  \vspace{2pt}%
 }
 
-\newcommand{\cventry}[4]{%
-  \begin{tabular}{@{}>{\raggedright\arraybackslash\color{muted}\footnotesize}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
-    #1 &
-    \begin{minipage}[t]{\bodycol}
-    \raggedright
-    \textbf{#2}#3%
-    \if\relax\detokenize{#4}\relax\else\par\emph{#4}\fi
-    \end{minipage}
-  \end{tabular}\par
-}
-
-\newcommand{\cvline}[2]{%
-  \begin{tabular}{@{}>{\raggedright\arraybackslash\color{muted}\footnotesize}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
-    #1 & \begin{minipage}[t]{\bodycol}\raggedright #2\end{minipage}
-  \end{tabular}\par
-}
-
-\newcommand{\cvshort}[2]{%
-  \noindent\makebox[\datecol][l]{{\color{muted}\footnotesize #1}}%
-  \hspace{\dategap}\parbox[t]{\bodycol}{\raggedright #2}\par
-}
-
-\newcommand{\cvfull}[1]{%
-  \noindent{\raggedright #1\par}%
-}
-
-\newenvironment{cvitems}{%
-  \begin{tabular}{@{}p{\datecol}@{\hspace{\dategap}}>{\arraybackslash}p{\bodycol}@{}}
-  &
-  \begin{minipage}[t]{\bodycol}
-  \raggedright
-  \begin{itemize}
-  \setlength{\itemsep}{0.12em}
-  \setlength{\topsep}{0.12em}
-  \setlength{\parsep}{0pt}
-  \setlength{\leftmargin}{1.15em}
-}{%
-  \end{itemize}
-  \end{minipage}
-  \end{tabular}\par
-}
-
-\newcommand{\entrysep}{\vspace{0.3em}}
+\newcommand{\cvitem}[1]{\item #1}
 
 \begin{document}
-\color{textgray}
-\fontsize{9.2pt}{11.5pt}\selectfont
 
-\begin{tabular}{@{}>{\arraybackslash}p{0.52\textwidth}@{\hfill}>{\raggedleft\arraybackslash}p{0.42\textwidth}@{}}
-  {\LARGE\bfseries Chenyu Lu} &
-  Hong Kong\\
-  &
-  \href{mailto:cluba@connect.ust.hk}{cluba@connect.ust.hk}\\
-  &
-  \href{https://dylanluchenyu.github.io}{dylanluchenyu.github.io}\\
-  &
-  GitHub: \href{https://github.com/dylanluchenyu}{dylanluchenyu}
-\end{tabular}
-
-\cvsection{Profile}
-\cvfull{Computer Science and Mathematics undergraduate at HKUST. Research interests in statistical machine learning and learning theory. Currently conducting research in reinforcement learning theory under the supervision of Prof. Nian Si.}
+{\Large\bfseries Chenyu Lu}\par
+\vspace{2pt}
+Hong Kong \quad
+\href{mailto:cluba@connect.ust.hk}{cluba@connect.ust.hk} \quad
+\href{https://dylanluchenyu.github.io}{dylanluchenyu.github.io} \quad
+\href{https://scholar.google.com/citations?hl=en\&user=TvHmvtEAAAAJ}{Google Scholar}\par
 
 \cvsection{Education}
-\cventry{Sep 2024 -- Jun 2028}{Bachelor of Science in Computer Science \& Mathematics}{, Hong Kong University of Science and Technology}{Hong Kong}
-\begin{cvitems}
-  \item CGA: 3.930 / 4.3; Major GPA: 4.048 / 4.3, calculated from graded COMP and MATH coursework.
-  \item Relevant coursework: Data Structures, Computer Organization, Algorithms, Operating Systems, Linear Algebra, Probability, Multivariable Calculus, Mathematical Analysis, Game Theory, Topology, Independent Work (COMP4971D).
-\end{cvitems}
-\entrysep
-\cventry{2026 -- 2027}{Student Member}{, The Hong Kong Institution of Engineers}{Hong Kong}
+\textbf{Hong Kong University of Science and Technology}
+\hfill {\color{cvblue}Sep 2024 -- Jun 2028 (Expected)}\par
+BSc in Computer Science \& Mathematics \hfill CGA: 3.930/4.3; Major GPA: 4.048/4.3\par
+Relevant coursework: Data Structures, Computer Organization, Algorithms, Operating Systems,
+Linear Algebra,\\
+Probability, Multivariable Calculus, Mathematical Analysis, Game Theory,
+Topology, Independent Work (COMP4971D).
 
 \cvsection{Internship Experience}
-\cventry{Jun 2026 -- Present}{Part-time Intern}{, Hong Kong Observatory}{Hong Kong}
-\begin{cvitems}
-  \item Working with Dr. Wallace S. W. Chan's team on Low Altitude Economy and aviation-related subjects.
-  \item Supporting real-world aviation data analysis, AI application, and related problem exploration.
-\end{cvitems}
+\textbf{Hong Kong Observatory}
+\hfill {\color{cvblue}Jun 2026 -- Present}\par
+\textit{Part-time Intern}
+\begin{itemize}[leftmargin=1.3em, topsep=1pt, itemsep=1pt, parsep=0pt]
+  \cvitem{Aviation data analysis and AI applications for Low Altitude Economy with Dr. Wallace S. W. Chan's team.}
+\end{itemize}
 
 \cvsection{Publications}
-\cvline{2026}{\textbf{Submitted to ICLR 2027.} \href{https://arxiv.org/abs/2609.32727}{arXiv}\\
-\emph{Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication}\\
-\textbf{Chenyu Lu}, Zijun Chen, Nian Si.}
-\entrysep
-\cvline{ICLR 2026}{\textbf{Co-author paper, ICLR 2026 (Oral).} \href{https://arxiv.org/abs/2509.15221}{arXiv}\\
-\emph{ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data}\\
-Zhaoyang Liu, Jingjing Xie, ..., \textbf{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wang.\\
-\textcolor{muted}{Contribution: data pipeline and cross-platform workflow components in the open-source codebase.}}
+\textbf{First-author paper, ICLR 2027 (under review)}
+\href{https://arxiv.org/abs/2609.32727}{[arXiv]}\par
+\textit{``Distributionally Robust Average-Reward Reinforcement Learning:\\
+Finite-Sample Guarantees under Weak Communication''}\par
+\underline{Chenyu Lu}, Zijun Chen, Nian Si.\par
+
+\vspace{2pt}
+\textbf{Co-author paper, ICLR 2026 (Oral)}
+\href{https://arxiv.org/abs/2509.15221}{[arXiv]}\par
+\textit{``ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data''}\par
+Zhaoyang Liu, Jingjing Xie, ..., \underline{Chenyu Lu}, Yunxiang Mo, ..., Wenhai Wang.
 
 \cvsection{Research Experience}
-\cventry{Jun 2026 -- Present}{Research Assistant}{, Reinforcement Learning and Learning Theory, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Supervisor: Prof. Nian Si.
-  \item Reading papers, developing research ideas, and drafting manuscripts for ongoing research.
-\end{cvitems}
-\entrysep
-\cventry{Jun 2026 -- Aug 2026}{Independent Work}{, Web-Fetch Benchmark, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Supervisor: Prof. Qifeng Chen.
-  \item Built a benchmark for evaluating the web-fetch ability of GPT and other large language models.
-  \item Worked on task design, data construction, evaluation workflow, and analysis.
-\end{cvitems}
-\entrysep
-\cventry{Jun 2025 -- Aug 2025}{UROP Research Assistant}{, GUI Agent Project, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Supervisors: Prof. Qifeng Chen and Dr. Zhaoyang Liu.
-  \item Performed large-scale data collection and preprocessing for GUI-agent research.
-  \item Co-authored ScaleCUA, accepted to ICLR 2026 as an Oral paper.
-  \item Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
-\end{cvitems}
-\entrysep
-\Needspace{9\baselineskip}
-\cventry{Sep 2025 -- Dec 2025}{UROP Research Assistant}{, Zeto Project, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Supervisors: Prof. Dimitris Papadopoulos and Dr. Jiajun Xin.
-  \item Conducted comparative analysis of UTXO and account-based models for blockchain protocol research.
-  \item Studied cryptographic foundations and their application to protocol validation.
-  \item Assisted with research documentation, data sorting, and project coordination.
-\end{cvitems}
+\textbf{Research Assistant, HKUST}
+\hfill {\color{cvblue}Jun 2026 -- Present}\par
+\textit{Average-Reward Reinforcement Learning; supervised by Prof. Nian Si}\par
+\begin{itemize}[leftmargin=1.3em, topsep=1pt, itemsep=1pt, parsep=0pt]
+  \cvitem{\raggedright Co-developed a prior-knowledge-free algorithm and span-dependent sample-complexity guarantees for estimating robust average rewards and learning near-optimal policies under weak communication.}
+\end{itemize}
 
-\cvsection{Projects}
-\cventry{2026}{HKO Flight Weather Dashboard}{, aviation weather data dashboard}{}
-\begin{cvitems}
-  \item Dashboard for HKIA flight situational awareness using public flight, METAR, and TAF data.
-  \item Project: \href{https://github.com/dylanluchenyu/HKO-Flight-Weather-Dashboard}{github.com/dylanluchenyu/HKO-Flight-Weather-Dashboard}.
-\end{cvitems}
-\entrysep
-\cventry{2026}{Codex Completion Sound}{, personal Codex utility}{}
-\begin{cvitems}
-  \item Small Codex skill that plays a completion sound when a Codex task finishes.
-  \item Project: \href{https://github.com/dylanluchenyu/codex-completion-sound}{github.com/dylanluchenyu/codex-completion-sound}.
-\end{cvitems}
-\entrysep
-\cventry{2025}{OpenGVLab / ScaleCUA Contribution}{, open-source computer-use-agent project}{}
-\begin{cvitems}
-  \item Contribution in ScaleCUA: data pipeline and cross-platform workflow components in the open-source codebase.
-  \item Project: \href{https://github.com/OpenGVLab/ScaleCUA}{github.com/OpenGVLab/ScaleCUA}.
-\end{cvitems}
+\vspace{2pt}
+\textbf{Independent Work, HKUST}
+\hfill {\color{cvblue}Jun 2026 -- Aug 2026}\par
+\textit{Web-Fetch Benchmark; supervised by Prof. Qifeng Chen}\par
+\begin{itemize}[leftmargin=1.3em, topsep=1pt, itemsep=1pt, parsep=0pt]
+  \cvitem{Built a benchmark evaluating GPT and other large language models on web-fetch tasks.}
+\end{itemize}
+
+\vspace{2pt}
+\textbf{UROP Research Assistant, HKUST}
+\hfill {\color{cvblue}Jun 2025 -- Aug 2025}\par
+\textit{GUI Agent Project; supervised by Prof. Qifeng Chen and Dr. Zhaoyang Liu}\par
+\begin{itemize}[leftmargin=1.3em, topsep=1pt, itemsep=1pt, parsep=0pt]
+  \cvitem{Collected GUI-agent research data and contributed data-pipeline components to ScaleCUA.}
+\end{itemize}
+
+\vspace{2pt}
+\textbf{UROP Research Assistant, HKUST}
+\hfill {\color{cvblue}Sep 2025 -- Dec 2025}\par
+\textit{Zeto Project; supervised by Prof. Dimitris Papadopoulos and Dr. Jiajun Xin}\par
+\begin{itemize}[leftmargin=1.3em, topsep=1pt, itemsep=1pt, parsep=0pt]
+  \cvitem{Compared UTXO and account-based models and supported blockchain protocol research.}
+\end{itemize}
 
 \cvsection{Teaching Experience}
-\cventry{Sep 2026 -- Dec 2026}{Undergraduate Teaching Assistant}{, COMP4900 Graduation Requirements, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Helping students understand graduation requirements.
-  \item Assisting with seminar registration checks and course administration.
-\end{cvitems}
-\entrysep
-\cventry{Feb 2026 -- May 2026}{Undergraduate Teaching Assistant}{, COMP4900 Graduation Requirements, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Helped students understand graduation requirements.
-  \item Assisted with seminar registration checks and course administration.
-\end{cvitems}
-\entrysep
-\cventry{Sep 2025 -- Dec 2025}{Undergraduate Teaching Assistant}{, COMP2711 Discrete Mathematics, HKUST}{Hong Kong}
-\begin{cvitems}
-  \item Provided academic guidance on core discrete mathematics concepts.
-  \item Assisted with assignment arrangement and course support.
-\end{cvitems}
+\textbf{Undergraduate Teaching Assistant, HKUST}
+\hfill {\color{cvblue}Sep 2026 -- Dec 2026}\par
+\textit{COMP4900 Graduation Requirements} -- graduation guidance and seminar registration checks.\par
+
+\vspace{2pt}
+\textbf{Undergraduate Teaching Assistant, HKUST}
+\hfill {\color{cvblue}Feb 2026 -- May 2026}\par
+\textit{COMP4900 Graduation Requirements} -- graduation guidance and seminar registration checks.\par
+
+\vspace{2pt}
+\textbf{Undergraduate Teaching Assistant, HKUST}
+\hfill {\color{cvblue}Sep 2025 -- Dec 2025}\par
+\textit{COMP2711 Discrete Mathematics} -- academic guidance and assignment support.\par
 
 \cvsection{Awards and Honors}
-\cvshort{May 2026}{Champion, 11th HKUST Undergraduate Mathematics Competition, Junior Division.}
-\cvshort{Apr 2025}{Champion, 10th HKUST Undergraduate Mathematics Competition, Junior Division.}
-\cvshort{2024-2025 Fall}{Dean's List, HKUST.}
-\cvshort{2024-2025 Spring}{Dean's List, HKUST.}
-\cvshort{2025-2026 Fall}{Dean's List, HKUST.}
-\cvshort{2025-2026 Spring}{Dean's List, HKUST.}
-\cvshort{2024--2025}{HKSAR Government Scholarship Fund - Talent Development Scholarship.}
-\cvshort{2025--2026}{University's Scholarship Scheme for Continuing Undergraduate Students.}
-\cvshort{Sep 2022}{First Prize, National High School Mathematics Olympiad (Preliminary), Chinese Mathematical Society.}
-\cvshort{}{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University.}
-\cvshort{Aug 2023}{Top 99\% National Ranking, Yau Shing-tung Math Test.}
+\textbf{Champion, 11th HKUST Mathematics Competition (Junior Division)}
+\hfill {\color{cvblue}May 2026}\par
+\textbf{Champion, 10th HKUST Mathematics Competition (Junior Division)}
+\hfill {\color{cvblue}Apr 2025}\par
+\textbf{Dean's List, HKUST}
+\hfill {\color{cvblue}2024--2025 Fall; 2024--2025 Spring}\par
+\hfill {\color{cvblue}2025--2026 Fall; 2025--2026 Spring}\par
+\textbf{HKSAR Government Scholarship Fund -- Talent Development Scholarship}
+\hfill {\color{cvblue}2024--2025}\par
+\textbf{University's Scholarship Scheme for Continuing Undergraduate Students}
+\hfill {\color{cvblue}2025--2026}\par
+\textbf{First Prize, National High School Mathematics Olympiad (Preliminary)}
+\hfill {\color{cvblue}Sep 2022}\par
+\textbf{Merit Award, 2nd Pi Day Challenge, Qiuzhen College, Tsinghua University}\par
+\textbf{Top 99\% National Ranking, Yau Shing-tung Math Test}
+\hfill {\color{cvblue}Aug 2023}\par
 
 \cvsection{Skills}
-\cvfull{Programming: Python, C/C++, JavaScript.}
-\cvfull{Research areas: Statistical machine learning, learning theory, reinforcement learning.}
-\cvfull{Languages: Mandarin Chinese (native), English (proficient).}
+\begin{itemize}[leftmargin=1.3em, topsep=0pt, itemsep=1pt, parsep=0pt]
+  \cvitem{\textbf{Programming:} Python, C/C++, JavaScript}
+  \cvitem{\textbf{Research:} Statistical machine learning, learning theory, reinforcement learning}
+  \cvitem{\textbf{Languages:} Mandarin Chinese (native), English (proficient)}
+\end{itemize}
 
-\cvsection{Extracurricular Activities}
-\cvline{Jul 2026}{Completed Level 1 \& 2 Certificate Course in Dinghy Sailing (DS061), HKUST Water Sports Center.}
+\cvsection{Activities}
+\textbf{Student Member, The Hong Kong Institution of Engineers}
+\hfill {\color{cvblue}2026 -- 2027}\par
+
+\vspace{2pt}
+\textbf{Dinghy Sailing Level 1 \& 2 Certificate Course (DS061), HKUST Water Sports Center}
+\hfill {\color{cvblue}Jul 2026}\par
 
 \end{document}
