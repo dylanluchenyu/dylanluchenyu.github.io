@@ -12,14 +12,14 @@ classes: wide
 
 <section class="about-summary">
   <h2>About</h2>
-  <p>I am an undergraduate at the Hong Kong University of Science and Technology, majoring in Computer Science and Mathematics. My academic interests lie in statistical machine learning, learning theory, and reinforcement learning.</p>
-  <p>I am currently a research assistant with Prof. Nian Si, where I read papers, develop research ideas, and write manuscripts on reinforcement learning theory. I recently completed independent work under Prof. Qifeng Chen on a benchmark for evaluating the web-fetch abilities of large language model agents. I am a part-time intern at the Hong Kong Observatory, working on aviation-related data and AI applications.</p>
+  <p>I am an undergraduate at the Hong Kong University of Science and Technology, majoring in Computer Science and Mathematics. My research interests are statistical machine learning and learning theory. I currently conduct research in reinforcement learning theory under the supervision of Prof. Nian Si.</p>
 </section>
 
 <span class="anchor" id="news"></span>
 
 # 🔥 News
 
+- *2026.09*: Our [paper](https://arxiv.org/abs/2609.32727) on distributionally robust average-reward reinforcement learning was submitted to ICLR 2027.
 - *2026.08*: Selected as undergraduate teaching assistant for **COMP4900 Graduation Requirements** at HKUST for Fall 2026.
 - *2026.08*: Completed independent work under **Prof. Qifeng Chen** on a benchmark for evaluating the web-fetch ability of GPT and other large language models.
 - *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
@@ -63,6 +63,18 @@ classes: wide
 <span class="anchor" id="publications"></span>
 
 # 📚 Publications
+
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-links">
+      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2609.32727" target="_blank" rel="noopener">arXiv</a>
+      <a class="paper-link-details" href="/publication/distributionally-robust-average-reward-reinforcement-learning/">Details</a>
+    </p>
+    <p class="paper-title"><a href="https://arxiv.org/abs/2609.32727" target="_blank" rel="noopener">Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication</a></p>
+    <p class="paper-authors"><strong>Chenyu Lu</strong>, Zijun Chen, Nian Si.</p>
+    <p class="paper-meta">Submitted to ICLR 2027</p>
+  </div>
+</div>
 
 <div class="paper-box">
   <div class="paper-box-text">

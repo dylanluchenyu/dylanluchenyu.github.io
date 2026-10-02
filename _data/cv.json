@@ -4,7 +4,7 @@
     "email": "cluba@connect.ust.hk",
     "phone": "+852 62790463",
     "website": "https://dylanluchenyu.github.io",
-    "summary": "Computer Science and Mathematics undergraduate at HKUST with academic interests in statistical machine learning, learning theory, and reinforcement learning. Current work includes research with Prof. Nian Si and a part-time internship at the Hong Kong Observatory; recent independent work with Prof. Qifeng Chen focused on benchmarking LLM agents' web-fetch abilities.",
+    "summary": "Computer Science and Mathematics undergraduate at HKUST. Research interests in statistical machine learning and learning theory. Currently conducting research in reinforcement learning theory under the supervision of Prof. Nian Si.",
     "location": {
       "city": "Hong Kong",
       "countryCode": "HK",
@@ -108,6 +108,13 @@
   ],
   "references": [],
   "publications": [
+    {
+      "name": "Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication",
+      "publisher": "arXiv preprint; submitted to ICLR 2027",
+      "releaseDate": "2026-09-26",
+      "website": "https://arxiv.org/abs/2609.32727",
+      "summary": "Chenyu Lu, Zijun Chen, and Nian Si."
+    },
     {
       "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
       "publisher": "arXiv",

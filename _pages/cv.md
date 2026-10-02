@@ -53,6 +53,10 @@ Research Experience
 
 Publications
 ======
+* **Submitted to ICLR 2027**. [arXiv](https://arxiv.org/abs/2609.32727)<br>
+  "Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication"<br>
+  **Chenyu Lu**, Zijun Chen, Nian Si.
+
 * **Co-author paper, ICLR 2026 (Oral)**. [arXiv](https://arxiv.org/abs/2509.15221)<br>
   "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data"<br>
   Zhaoyang Liu, Jingjing Xie, ..., **Chenyu Lu**, Yunxiang Mo, ..., Wenhai Wang.<br>
