@@ -19,7 +19,6 @@ classes: wide
 
 # 🔥 News
 
-- *2026.09*: Our [paper](https://arxiv.org/abs/2609.32727) on distributionally robust average-reward reinforcement learning is under review at ICLR 2027.
 - *2026.08*: Selected as undergraduate teaching assistant for **COMP4900 Graduation Requirements** at HKUST for Fall 2026.
 - *2026.08*: Completed independent work under **Prof. Qifeng Chen** on a benchmark for evaluating the web-fetch ability of GPT and other large language models.
 - *2026.06*: Began part-time internship with the **Hong Kong Observatory**, working on Low Altitude Economy and aviation-related data/AI topics.
@@ -63,18 +62,6 @@ classes: wide
 <span class="anchor" id="publications"></span>
 
 # 📚 Publications
-
-<div class="paper-box">
-  <div class="paper-box-text">
-    <p class="paper-links">
-      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2609.32727" target="_blank" rel="noopener">arXiv</a>
-      <a class="paper-link-details" href="/publication/distributionally-robust-average-reward-reinforcement-learning/">Details</a>
-    </p>
-    <p class="paper-title"><a href="https://arxiv.org/abs/2609.32727" target="_blank" rel="noopener">Distributionally Robust Average-Reward Reinforcement Learning: Finite-Sample Guarantees under Weak Communication</a></p>
-    <p class="paper-authors"><strong>Chenyu Lu</strong>, Zijun Chen, Nian Si.</p>
-    <p class="paper-meta">Under review at ICLR 2027</p>
-  </div>
-</div>
 
 <div class="paper-box">
   <div class="paper-box-text">
